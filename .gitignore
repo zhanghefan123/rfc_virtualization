@@ -12,14 +12,12 @@ venv/
 .ruff_cache/
 
 # Crawled RFC data (large)
-data/documents/
-data/rfc-index.xml
-data/rfc_manifest.csv
-data/errors.log
+data/*
+!data/.gitkeep
 
-# Generated outputs
-outputs/*.csv
-outputs/*.html
+# Generated outputs (jsonl, graphs, charts, etc.)
+outputs/*
+!outputs/.gitkeep
 
 # Secrets
 .env
@@ -29,7 +27,3 @@ outputs/*.html
 .vscode/
 .DS_Store
 Thumbs.db
-
-# Keep directory structure
-!data/.gitkeep
-!outputs/.gitkeep

@@ -2,9 +2,13 @@
 
 input:
   protocol_clusters_jsonl: "outputs/protocol_clusters.jsonl"
+  graphs_directory: "outputs/graphs"
 
 output:
   layer_chart_html: "outputs/layer_protocol_chart.html"
 
 chart:
   cluster_bar_top_n: 0  # 柱状图展示簇数量；0 表示全部（启用滚动）
+
+metrics:
+  weighted_adjacency: false

@@ -1,0 +1,21 @@
+# 协议簇引用关系图（路径相对于项目根目录）
+
+input:
+  protocol_clusters_jsonl: "outputs/protocol_clusters.jsonl"
+  relations_dir: "data/documents/relations"
+  manifest: "data/rfc_manifest.csv"
+
+output:
+  directory: "outputs/graphs"
+
+graph:
+  year_span: 10
+  year_start: 1969
+  year_end: 2026
+  reference_types:
+    - refnorm
+    - refinfo
+    - refold
+    - refunk
+  include_self_loops: false
+  cumulative: true  # true=每段含 year_start 至该段末年；false=仅该段内
