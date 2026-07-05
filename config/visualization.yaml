@@ -1,0 +1,7 @@
+# 可视化配置（路径相对于项目根目录）
+
+input:
+  classification_jsonl: "outputs/llm_protocol_classification.jsonl"
+
+output:
+  layer_chart_html: "outputs/layer_protocol_chart.html"

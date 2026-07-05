@@ -1,0 +1,25 @@
+# LLM 协议分类配置（路径相对于项目根目录）
+
+input:
+  manifest: "data/rfc_manifest.csv"
+  json_dir: "data/documents/json"
+  txt_dir: "data/documents/txt"
+  limit: 10000
+  abstract_max_len: 800
+
+api:
+  base_url: "https://api.deepseek.com"
+  model: "deepseek-chat"
+  timeout_seconds: 120
+  temperature: 0.2
+  api_key_env: "DEEPSEEK_API_KEY"
+
+run:
+  batch_size: 10
+  concurrency: 4
+  request_delay_seconds: 0
+  skip_existing: true
+  dry_run: false
+
+output:
+  classification_jsonl: "outputs/llm_protocol_classification.jsonl"

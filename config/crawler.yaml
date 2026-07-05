@@ -1,0 +1,41 @@
+# RFC 爬虫配置（路径相对于项目根目录）
+
+index:
+  url: "https://www.rfc-editor.org/rfc/rfc-index.xml"
+  cache_file: "rfc-index.xml"
+  reuse_cached_index: true
+
+download:
+  formats:
+    - json
+    - relations
+    - txt
+
+  format_sources:
+    json:
+      url_template: "https://datatracker.ietf.org/doc/rfc{number}/doc.json"
+    relations:
+      api_base: "https://datatracker.ietf.org/api/v1"
+    txt:
+      url_template: "https://www.rfc-editor.org/rfc/rfc{number}.txt"
+      optional: false
+
+  optional_formats: []
+  concurrency: 10
+  request_delay_seconds: 0.25
+  timeout_seconds: 60
+  max_retries: 8
+  retry_base_seconds: 2
+  retry_max_seconds: 60
+  skip_existing: true
+
+http:
+  user_agent: "rfc-virtualization/rfc-crawler"
+  max_connections: 8
+  max_keepalive_connections: 4
+
+output:
+  directory: "data"
+  documents_subdirectory: "documents"
+  manifest_csv: "rfc_manifest.csv"
+  errors_log: "errors.log"

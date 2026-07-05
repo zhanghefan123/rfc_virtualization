@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Crawled RFC data (large)
+data/documents/
+data/rfc-index.xml
+data/rfc_manifest.csv
+data/errors.log
+
+# Generated outputs
+outputs/*.csv
+outputs/*.html
+
+# Secrets
+.env
+.env.example
+
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Keep directory structure
+!data/.gitkeep
+!outputs/.gitkeep
