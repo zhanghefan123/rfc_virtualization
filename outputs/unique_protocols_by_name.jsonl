@@ -1,0 +1,918 @@
+{"protocol_acronym": null, "protocol_name": "6LoWPAN Routing Header", "layer": "network", "rfc_count": 1, "rfc_numbers": [8138]}
+{"protocol_acronym": null, "protocol_name": "6LoWPAN Selective Fragment Recovery", "layer": "network", "rfc_count": 1, "rfc_numbers": [8931]}
+{"protocol_acronym": null, "protocol_name": "AAA Registration Keys for Mobile IPv4", "layer": "network", "rfc_count": 1, "rfc_numbers": [3957]}
+{"protocol_acronym": null, "protocol_name": "Access-Network-Identifier Option in DHCP", "layer": "application", "rfc_count": 1, "rfc_numbers": [7839]}
+{"protocol_acronym": null, "protocol_name": "Active Users Protocol", "layer": "application", "rfc_count": 1, "rfc_numbers": [866]}
+{"protocol_acronym": null, "protocol_name": "Additional Master Secret Inputs for TLS", "layer": "transport", "rfc_count": 1, "rfc_numbers": [6358]}
+{"protocol_acronym": null, "protocol_name": "Address Mapping of IPv6 Multicast Packets on Ethernet", "layer": "link", "rfc_count": 1, "rfc_numbers": [6085]}
+{"protocol_acronym": null, "protocol_name": "Address Resolution for Instant Messaging and Presence", "layer": "application", "rfc_count": 1, "rfc_numbers": [3861]}
+{"protocol_acronym": null, "protocol_name": "Advertising IPv4 NLRI with IPv6 Next Hop", "layer": "network", "rfc_count": 1, "rfc_numbers": [8950]}
+{"protocol_acronym": null, "protocol_name": "AES Encryption with HMAC-SHA2 for Kerberos 5", "layer": "application", "rfc_count": 1, "rfc_numbers": [8009]}
+{"protocol_acronym": null, "protocol_name": "AES-CCM Cipher Suites for Transport Layer Security", "layer": "presentation", "rfc_count": 1, "rfc_numbers": [6655]}
+{"protocol_acronym": null, "protocol_name": "AES-CCM ECC Cipher Suites for TLS", "layer": "transport", "rfc_count": 1, "rfc_numbers": [7251]}
+{"protocol_acronym": null, "protocol_name": "AES-GCM Authenticated Encryption in SRTP", "layer": "application", "rfc_count": 1, "rfc_numbers": [7714]}
+{"protocol_acronym": null, "protocol_name": "AES-XCBC-PRF-128 Algorithm for IKE", "layer": "network", "rfc_count": 1, "rfc_numbers": [4434]}
+{"protocol_acronym": null, "protocol_name": "Aggregation of RSVP for IPv4 and IPv6 Reservations", "layer": "network", "rfc_count": 1, "rfc_numbers": [3175]}
+{"protocol_acronym": null, "protocol_name": "Allocation Token Extension for EPP", "layer": "application", "rfc_count": 1, "rfc_numbers": [8495]}
+{"protocol_acronym": null, "protocol_name": "Alternate-Marking Method", "layer": "other", "rfc_count": 1, "rfc_numbers": [9341]}
+{"protocol_acronym": null, "protocol_name": "ANSI C12.22/IEEE 1703/MC12.22 Transport Over IP", "layer": "application", "rfc_count": 1, "rfc_numbers": [6142]}
+{"protocol_acronym": null, "protocol_name": "api-catalog", "layer": "application", "rfc_count": 1, "rfc_numbers": [9727]}
+{"protocol_acronym": null, "protocol_name": "application/whoispp-query Content-Type", "layer": "application", "rfc_count": 1, "rfc_numbers": [2957]}
+{"protocol_acronym": null, "protocol_name": "application/whoispp-response Content-Type", "layer": "application", "rfc_count": 1, "rfc_numbers": [2958]}
+{"protocol_acronym": null, "protocol_name": "Archived-At Message Header Field", "layer": "application", "rfc_count": 1, "rfc_numbers": [5064]}
+{"protocol_acronym": null, "protocol_name": "ARP and IP Broadcast over HIPPI-800", "layer": "network", "rfc_count": 1, "rfc_numbers": [2834]}
+{"protocol_acronym": null, "protocol_name": "ARPANET Short Blocking Feature", "layer": "link", "rfc_count": 1, "rfc_numbers": [852]}
+{"protocol_acronym": null, "protocol_name": "Assertion Framework for OAuth 2.0", "layer": "application", "rfc_count": 1, "rfc_numbers": [7521]}
+{"protocol_acronym": null, "protocol_name": "Assignment of Information Field and Protocol Identifier in Q.2941 and Q.2957", "layer": "application", "rfc_count": 1, "rfc_numbers": [3033]}
+{"protocol_acronym": null, "protocol_name": "Associating Time-Codes with RTP Streams", "layer": "application", "rfc_count": 1, "rfc_numbers": [5484]}
+{"protocol_acronym": null, "protocol_name": "ATM Signaling Support for IP over ATM", "layer": "network", "rfc_count": 1, "rfc_numbers": [1755]}
+{"protocol_acronym": null, "protocol_name": "ATM Signalling Support for IP over ATM", "layer": "network", "rfc_count": 1, "rfc_numbers": [2331]}
+{"protocol_acronym": null, "protocol_name": "Atom deleted-entry Element", "layer": "application", "rfc_count": 1, "rfc_numbers": [6721]}
+{"protocol_acronym": null, "protocol_name": "Atom License Extension", "layer": "application", "rfc_count": 1, "rfc_numbers": [4946]}
+{"protocol_acronym": null, "protocol_name": "Attaching Meaning to Solicitation Class Keywords", "layer": "application", "rfc_count": 1, "rfc_numbers": [4095]}
+{"protocol_acronym": null, "protocol_name": "Authenticated Identity Management in SIP", "layer": "application", "rfc_count": 1, "rfc_numbers": [8224]}
+{"protocol_acronym": null, "protocol_name": "Authentication Context Certificate Extension", "layer": "presentation", "rfc_count": 1, "rfc_numbers": [7773]}
+{"protocol_acronym": null, "protocol_name": "Authentication Methods for LDAP", "layer": "application", "rfc_count": 1, "rfc_numbers": [2829]}
+{"protocol_acronym": null, "protocol_name": "Authentication server protocol", "layer": "application", "rfc_count": 1, "rfc_numbers": [931]}
+{"protocol_acronym": null, "protocol_name": "Authentication Service", "layer": "application", "rfc_count": 1, "rfc_numbers": [912]}
+{"protocol_acronym": null, "protocol_name": "Authentication-Results Header Field", "layer": "application", "rfc_count": 2, "rfc_numbers": [7001, 7601]}
+{"protocol_acronym": null, "protocol_name": "Authorization for NSIS Signaling Layer Protocols", "layer": "application", "rfc_count": 1, "rfc_numbers": [5981]}
+{"protocol_acronym": null, "protocol_name": "Automatic DNSSEC Bootstrapping", "layer": "application", "rfc_count": 1, "rfc_numbers": [9615]}
+{"protocol_acronym": null, "protocol_name": "Autonomous System Confederations for BGP", "layer": "network", "rfc_count": 1, "rfc_numbers": [1965]}
+{"protocol_acronym": null, "protocol_name": "Autonomous-System-Wide Unique BGP Identifier for BGP-4", "layer": "network", "rfc_count": 1, "rfc_numbers": [6286]}
+{"protocol_acronym": null, "protocol_name": "Babel Routing Protocol over DTLS", "layer": "network", "rfc_count": 1, "rfc_numbers": [8968]}
+{"protocol_acronym": null, "protocol_name": "Base16, Base32, and Base64 Data Encodings", "layer": "presentation", "rfc_count": 2, "rfc_numbers": [3548, 4648]}
+{"protocol_acronym": null, "protocol_name": "Basic Network Media Services with SIP", "layer": "application", "rfc_count": 1, "rfc_numbers": [4240]}
+{"protocol_acronym": null, "protocol_name": "Basic Support for IPv6 Networks Operating Outside the Context of a Basic Service Set over IEEE Std 802.11", "layer": "link", "rfc_count": 1, "rfc_numbers": [8691]}
+{"protocol_acronym": null, "protocol_name": "BFD for VXLAN", "layer": "network", "rfc_count": 1, "rfc_numbers": [8971]}
+{"protocol_acronym": null, "protocol_name": "BGP Best Path Transition Avoidance", "layer": "network", "rfc_count": 1, "rfc_numbers": [5004]}
+{"protocol_acronym": null, "protocol_name": "BGP Cease Notification Message Subcodes", "layer": "network", "rfc_count": 1, "rfc_numbers": [4486]}
+{"protocol_acronym": null, "protocol_name": "BGP extension for IPv4 NLRI with IPv6 Next Hop", "layer": "network", "rfc_count": 1, "rfc_numbers": [5549]}
+{"protocol_acronym": null, "protocol_name": "BGP IPsec Tunnel Encapsulation Attribute", "layer": "network", "rfc_count": 1, "rfc_numbers": [5566]}
+{"protocol_acronym": null, "protocol_name": "BGP Overlay Services over SRv6", "layer": "network", "rfc_count": 1, "rfc_numbers": [9252]}
+{"protocol_acronym": null, "protocol_name": "BGP Route Reflection", "layer": "network", "rfc_count": 1, "rfc_numbers": [1966]}
+{"protocol_acronym": null, "protocol_name": "BGP-Based Auto-Discovery for Layer-1 VPNs", "layer": "network", "rfc_count": 1, "rfc_numbers": [5195]}
+{"protocol_acronym": null, "protocol_name": "BGP4/IDRP for IP---OSPF Interaction", "layer": "network", "rfc_count": 1, "rfc_numbers": [1745]}
+{"protocol_acronym": null, "protocol_name": "Bidirectional Remote Procedure Call on RPC-over-RDMA Transports", "layer": "session", "rfc_count": 1, "rfc_numbers": [8167]}
+{"protocol_acronym": null, "protocol_name": "Bootstrapping TLS Encrypted ClientHello with DNS Service Bindings", "layer": "application", "rfc_count": 1, "rfc_numbers": [9848]}
+{"protocol_acronym": null, "protocol_name": "Broadcast Packet Repeater", "layer": "network", "rfc_count": 1, "rfc_numbers": [947]}
+{"protocol_acronym": null, "protocol_name": "Broadcasting Internet Datagrams", "layer": "network", "rfc_count": 1, "rfc_numbers": [919]}
+{"protocol_acronym": null, "protocol_name": "Broadcasting Internet Datagrams in the Presence of Subnets", "layer": "network", "rfc_count": 1, "rfc_numbers": [922]}
+{"protocol_acronym": null, "protocol_name": "C-MAC Flush Mechanism for PBB-EVPN", "layer": "network", "rfc_count": 1, "rfc_numbers": [9541]}
+{"protocol_acronym": null, "protocol_name": "Calling Line Identification for Voice Mail Messages", "layer": "application", "rfc_count": 1, "rfc_numbers": [3939]}
+{"protocol_acronym": null, "protocol_name": "Camellia Cipher Suites for TLS", "layer": "presentation", "rfc_count": 2, "rfc_numbers": [4132, 5932]}
+{"protocol_acronym": null, "protocol_name": "Camellia Encryption for Kerberos 5", "layer": "application", "rfc_count": 1, "rfc_numbers": [6803]}
+{"protocol_acronym": null, "protocol_name": "Cancel-Locks in Netnews", "layer": "application", "rfc_count": 1, "rfc_numbers": [8315]}
+{"protocol_acronym": null, "protocol_name": "Canonical XML Version 1.0", "layer": "presentation", "rfc_count": 1, "rfc_numbers": [3076]}
+{"protocol_acronym": null, "protocol_name": "Captive Portal API", "layer": "application", "rfc_count": 1, "rfc_numbers": [8908]}
+{"protocol_acronym": null, "protocol_name": "Captive-Portal Identification", "layer": "network", "rfc_count": 1, "rfc_numbers": [7710]}
+{"protocol_acronym": null, "protocol_name": "Captive-Portal Identification in DHCP and Router Advertisements", "layer": "network", "rfc_count": 1, "rfc_numbers": [8910]}
+{"protocol_acronym": null, "protocol_name": "Careful Resume", "layer": "transport", "rfc_count": 1, "rfc_numbers": [9959]}
+{"protocol_acronym": null, "protocol_name": "Carrying PostScript in X.400 and MIME", "layer": "application", "rfc_count": 1, "rfc_numbers": [2160]}
+{"protocol_acronym": null, "protocol_name": "Case-Sensitive String Support in ABNF", "layer": "other", "rfc_count": 1, "rfc_numbers": [7405]}
+{"protocol_acronym": null, "protocol_name": "CDNI Delegation Using ACME", "layer": "application", "rfc_count": 1, "rfc_numbers": [9538]}
+{"protocol_acronym": null, "protocol_name": "Certificate Management Service for SIP", "layer": "application", "rfc_count": 1, "rfc_numbers": [6072]}
+{"protocol_acronym": null, "protocol_name": "Certificate Transparency", "layer": "application", "rfc_count": 1, "rfc_numbers": [6962]}
+{"protocol_acronym": null, "protocol_name": "ChaCha20 and Poly1305", "layer": "presentation", "rfc_count": 1, "rfc_numbers": [8439]}
+{"protocol_acronym": null, "protocol_name": "ChaCha20-Poly1305", "layer": "presentation", "rfc_count": 1, "rfc_numbers": [7539]}
+{"protocol_acronym": null, "protocol_name": "Channel Bindings for TLS", "layer": "session", "rfc_count": 1, "rfc_numbers": [5929]}
+{"protocol_acronym": null, "protocol_name": "Channel Bindings for TLS 1.3", "layer": "application", "rfc_count": 1, "rfc_numbers": [9266]}
+{"protocol_acronym": null, "protocol_name": "Channel-Binding Support for EAP Methods", "layer": "application", "rfc_count": 1, "rfc_numbers": [6677]}
+{"protocol_acronym": null, "protocol_name": "Character Generator Process", "layer": "application", "rfc_count": 1, "rfc_numbers": [429]}
+{"protocol_acronym": null, "protocol_name": "Character Generator Protocol", "layer": "application", "rfc_count": 1, "rfc_numbers": [864]}
+{"protocol_acronym": null, "protocol_name": "Child-to-Parent Synchronization in DNS", "layer": "application", "rfc_count": 1, "rfc_numbers": [7477]}
+{"protocol_acronym": null, "protocol_name": "Cisco Systems Export of Application Information in IPFIX", "layer": "application", "rfc_count": 1, "rfc_numbers": [6759]}
+{"protocol_acronym": null, "protocol_name": "Cisco Systems' Subnet Allocation Option for DHCPv4", "layer": "application", "rfc_count": 1, "rfc_numbers": [6656]}
+{"protocol_acronym": null, "protocol_name": "Class Extensions for PPP over ATM Adaptation Layer 2", "layer": "link", "rfc_count": 1, "rfc_numbers": [3337]}
+{"protocol_acronym": null, "protocol_name": "Classical IP and ARP over ATM", "layer": "network", "rfc_count": 2, "rfc_numbers": [1577, 2225]}
+{"protocol_acronym": null, "protocol_name": "Client-Cert HTTP Header Field", "layer": "application", "rfc_count": 1, "rfc_numbers": [9440]}
+{"protocol_acronym": null, "protocol_name": "Cloning the IKE Security Association in IKEv2", "layer": "network", "rfc_count": 1, "rfc_numbers": [7791]}
+{"protocol_acronym": null, "protocol_name": "CLUE Protocol Data Channel", "layer": "application", "rfc_count": 1, "rfc_numbers": [8850]}
+{"protocol_acronym": null, "protocol_name": "Clustered Alternate-Marking Method", "layer": "other", "rfc_count": 1, "rfc_numbers": [9342]}
+{"protocol_acronym": null, "protocol_name": "CMS Symmetric Key Management and Distribution", "layer": "application", "rfc_count": 1, "rfc_numbers": [5275]}
+{"protocol_acronym": null, "protocol_name": "Common Schema for IRIS Transfer Protocols", "layer": "application", "rfc_count": 1, "rfc_numbers": [4991]}
+{"protocol_acronym": null, "protocol_name": "Communication support for fault tolerant process groups", "layer": "other", "rfc_count": 1, "rfc_numbers": [992]}
+{"protocol_acronym": null, "protocol_name": "Completion of Calls for SIP", "layer": "application", "rfc_count": 1, "rfc_numbers": [6910]}
+{"protocol_acronym": null, "protocol_name": "Compressing TCP/IP Headers for Low-Speed Serial Links", "layer": "network", "rfc_count": 1, "rfc_numbers": [1144]}
+{"protocol_acronym": null, "protocol_name": "Compression Dictionary Transport", "layer": "application", "rfc_count": 1, "rfc_numbers": [9842]}
+{"protocol_acronym": null, "protocol_name": "Concat Notation", "layer": "application", "rfc_count": 1, "rfc_numbers": [9402]}
+{"protocol_acronym": null, "protocol_name": "Conference Establishment Using Request-Contained Lists", "layer": "application", "rfc_count": 1, "rfc_numbers": [5366]}
+{"protocol_acronym": null, "protocol_name": "Configuration of Proactive OAM Functions for MPLS-Based Transport Networks Using LSP Ping", "layer": "network", "rfc_count": 1, "rfc_numbers": [7759]}
+{"protocol_acronym": null, "protocol_name": "Configuration of Proactive OAM Functions for MPLS-Based Transport Networks Using RSVP-TE", "layer": "network", "rfc_count": 1, "rfc_numbers": [7487]}
+{"protocol_acronym": null, "protocol_name": "Content Feature Schema for Internet Fax", "layer": "application", "rfc_count": 1, "rfc_numbers": [2531]}
+{"protocol_acronym": null, "protocol_name": "Content Indirection Mechanism for SIP", "layer": "application", "rfc_count": 1, "rfc_numbers": [4483]}
+{"protocol_acronym": null, "protocol_name": "Content Language Headers", "layer": "application", "rfc_count": 1, "rfc_numbers": [3282]}
+{"protocol_acronym": null, "protocol_name": "Content Negotiation for Messaging Services based on Email", "layer": "application", "rfc_count": 1, "rfc_numbers": [3297]}
+{"protocol_acronym": null, "protocol_name": "Content-Disposition Header", "layer": "application", "rfc_count": 1, "rfc_numbers": [1806]}
+{"protocol_acronym": null, "protocol_name": "Conventions for Using an IBM 2741 Terminal", "layer": "application", "rfc_count": 1, "rfc_numbers": [110]}
+{"protocol_acronym": null, "protocol_name": "Counter Mode for ESP and AH", "layer": "network", "rfc_count": 1, "rfc_numbers": [6054]}
+{"protocol_acronym": null, "protocol_name": "Coupled Congestion Control for Multipath Transport Protocols", "layer": "transport", "rfc_count": 1, "rfc_numbers": [6356]}
+{"protocol_acronym": null, "protocol_name": "Coupled Congestion Control for RTP Media", "layer": "transport", "rfc_count": 1, "rfc_numbers": [8699]}
+{"protocol_acronym": null, "protocol_name": "Critical Content MIME Parameter", "layer": "application", "rfc_count": 1, "rfc_numbers": [3459]}
+{"protocol_acronym": null, "protocol_name": "Data Reconfiguration Service", "layer": "application", "rfc_count": 3, "rfc_numbers": [138, 166, 194]}
+{"protocol_acronym": null, "protocol_name": "Date and Time on the Internet: Timestamps with Additional Information", "layer": "application", "rfc_count": 1, "rfc_numbers": [9557]}
+{"protocol_acronym": null, "protocol_name": "DEC PDP-10-IMLAC Communication System", "layer": "application", "rfc_count": 1, "rfc_numbers": [190]}
+{"protocol_acronym": null, "protocol_name": "Declarative Public Extension Key for iSCSI Node Architecture", "layer": "application", "rfc_count": 1, "rfc_numbers": [4850]}
+{"protocol_acronym": null, "protocol_name": "Default Address Selection for IPv6", "layer": "network", "rfc_count": 1, "rfc_numbers": [6724]}
+{"protocol_acronym": null, "protocol_name": "Default IP MTU for use over ATM AAL5", "layer": "network", "rfc_count": 1, "rfc_numbers": [1626]}
+{"protocol_acronym": null, "protocol_name": "Default Router Preferences and More-Specific Routes", "layer": "network", "rfc_count": 1, "rfc_numbers": [4191]}
+{"protocol_acronym": null, "protocol_name": "Delegated Credentials for TLS and DTLS", "layer": "session", "rfc_count": 1, "rfc_numbers": [9345]}
+{"protocol_acronym": null, "protocol_name": "Delta encoding in HTTP", "layer": "application", "rfc_count": 1, "rfc_numbers": [3229]}
+{"protocol_acronym": null, "protocol_name": "Detached Domain Name System (DNS) Information", "layer": "application", "rfc_count": 1, "rfc_numbers": [2540]}
+{"protocol_acronym": null, "protocol_name": "DetNet OAM with MPLS Data Plane", "layer": "network", "rfc_count": 1, "rfc_numbers": [9546]}
+{"protocol_acronym": null, "protocol_name": "Device Independent Graphical Display Description", "layer": "application", "rfc_count": 1, "rfc_numbers": [177]}
+{"protocol_acronym": null, "protocol_name": "Device-Provided Location-Related Measurements Protocol", "layer": "application", "rfc_count": 1, "rfc_numbers": [7105]}
+{"protocol_acronym": null, "protocol_name": "DHC Load Balancing Algorithm", "layer": "application", "rfc_count": 1, "rfc_numbers": [3074]}
+{"protocol_acronym": null, "protocol_name": "DHCP Option to Disable Stateless Auto-Configuration", "layer": "network", "rfc_count": 1, "rfc_numbers": [2563]}
+{"protocol_acronym": null, "protocol_name": "DHCP Relay Agent Source Port Extension", "layer": "application", "rfc_count": 1, "rfc_numbers": [8357]}
+{"protocol_acronym": null, "protocol_name": "DHCPv4 Bulk Leasequery", "layer": "network", "rfc_count": 1, "rfc_numbers": [6926]}
+{"protocol_acronym": null, "protocol_name": "DHCPv4 Configuration of IPsec Tunnel Mode", "layer": "network", "rfc_count": 1, "rfc_numbers": [3456]}
+{"protocol_acronym": null, "protocol_name": "DHCPv4 over DHCPv6 with Relay Agent Support", "layer": "application", "rfc_count": 1, "rfc_numbers": [9928]}
+{"protocol_acronym": null, "protocol_name": "DHCPv4 Relay Agent Identifier Sub-Option", "layer": "network", "rfc_count": 1, "rfc_numbers": [6925]}
+{"protocol_acronym": null, "protocol_name": "DHCPv6 Failover Protocol", "layer": "network", "rfc_count": 1, "rfc_numbers": [8156]}
+{"protocol_acronym": null, "protocol_name": "DHCPv6 Options for Network Boot", "layer": "application", "rfc_count": 1, "rfc_numbers": [5970]}
+{"protocol_acronym": null, "protocol_name": "DHCPv6 Options for SIP Servers", "layer": "application", "rfc_count": 1, "rfc_numbers": [3319]}
+{"protocol_acronym": null, "protocol_name": "DHCPv6 Relay Agent Echo Request Option", "layer": "network", "rfc_count": 1, "rfc_numbers": [4994]}
+{"protocol_acronym": null, "protocol_name": "DHCPv6 Relay Agent Remote-ID Option", "layer": "network", "rfc_count": 1, "rfc_numbers": [4649]}
+{"protocol_acronym": null, "protocol_name": "Dial-up Protocol", "layer": "application", "rfc_count": 1, "rfc_numbers": [66]}
+{"protocol_acronym": null, "protocol_name": "Diameter Attribute-Value Pairs for Cryptographic Key Transport", "layer": "application", "rfc_count": 1, "rfc_numbers": [6734]}
+{"protocol_acronym": null, "protocol_name": "Diameter AVPs for IPv4-over-IPv6 Transition", "layer": "application", "rfc_count": 1, "rfc_numbers": [7678]}
+{"protocol_acronym": null, "protocol_name": "Diameter Group Signaling", "layer": "application", "rfc_count": 1, "rfc_numbers": [9390]}
+{"protocol_acronym": null, "protocol_name": "Diameter Priority Attribute-Value Pairs", "layer": "application", "rfc_count": 1, "rfc_numbers": [6735]}
+{"protocol_acronym": null, "protocol_name": "Diameter Support for Proxy Mobile IPv6 Localized Routing", "layer": "application", "rfc_count": 1, "rfc_numbers": [7156]}
+{"protocol_acronym": null, "protocol_name": "Diffie-Hellman Key Agreement Method", "layer": "application", "rfc_count": 1, "rfc_numbers": [2631]}
+{"protocol_acronym": null, "protocol_name": "Diffie-Hellman Proof-of-Possession Algorithms", "layer": "application", "rfc_count": 1, "rfc_numbers": [6955]}
+{"protocol_acronym": null, "protocol_name": "Digest Fields", "layer": "application", "rfc_count": 1, "rfc_numbers": [9530]}
+{"protocol_acronym": null, "protocol_name": "Digest Message Format", "layer": "application", "rfc_count": 1, "rfc_numbers": [1153]}
+{"protocol_acronym": null, "protocol_name": "Directory Oriented FTP Commands", "layer": "application", "rfc_count": 1, "rfc_numbers": [775]}
+{"protocol_acronym": null, "protocol_name": "Discard Protocol", "layer": "application", "rfc_count": 1, "rfc_numbers": [863]}
+{"protocol_acronym": null, "protocol_name": "Displaying Downgraded Messages for Email Address Internationalization", "layer": "application", "rfc_count": 1, "rfc_numbers": [5825]}
+{"protocol_acronym": null, "protocol_name": "Dissemination of Flow Specification Rules", "layer": "network", "rfc_count": 1, "rfc_numbers": [8955]}
+{"protocol_acronym": null, "protocol_name": "Distributed Prefix Assignment Algorithm", "layer": "network", "rfc_count": 1, "rfc_numbers": [7695]}
+{"protocol_acronym": null, "protocol_name": "Distributing Address Selection Policy Using DHCPv6", "layer": "network", "rfc_count": 1, "rfc_numbers": [7078]}
+{"protocol_acronym": null, "protocol_name": "DNS Based IP Routing", "layer": "application", "rfc_count": 1, "rfc_numbers": [1383]}
+{"protocol_acronym": null, "protocol_name": "DNS Catalog Zones", "layer": "application", "rfc_count": 1, "rfc_numbers": [9432]}
+{"protocol_acronym": null, "protocol_name": "DNS Cookies", "layer": "application", "rfc_count": 1, "rfc_numbers": [7873]}
+{"protocol_acronym": null, "protocol_name": "DNS Extensions for IPv6", "layer": "application", "rfc_count": 1, "rfc_numbers": [1886]}
+{"protocol_acronym": null, "protocol_name": "DNS Name Predecessor and Successor Derivation", "layer": "application", "rfc_count": 1, "rfc_numbers": [4471]}
+{"protocol_acronym": null, "protocol_name": "DNS NSAP Resource Records", "layer": "application", "rfc_count": 1, "rfc_numbers": [1348]}
+{"protocol_acronym": null, "protocol_name": "DNS Push Notifications", "layer": "application", "rfc_count": 1, "rfc_numbers": [8765]}
+{"protocol_acronym": null, "protocol_name": "DNS Resource Records for ILNP", "layer": "application", "rfc_count": 1, "rfc_numbers": [6742]}
+{"protocol_acronym": null, "protocol_name": "DOCSIS Device Class DHCP Relay Agent Information Sub-option", "layer": "application", "rfc_count": 1, "rfc_numbers": [3256]}
+{"protocol_acronym": null, "protocol_name": "DoD Internet Host Table Specification", "layer": "application", "rfc_count": 1, "rfc_numbers": [810]}
+{"protocol_acronym": null, "protocol_name": "Domain-Based Application Service Location Using SRV RRs and DDDS", "layer": "application", "rfc_count": 1, "rfc_numbers": [3958]}
+{"protocol_acronym": null, "protocol_name": "DSA KEYs and SIGs in the Domain Name System", "layer": "application", "rfc_count": 1, "rfc_numbers": [2536]}
+{"protocol_acronym": null, "protocol_name": "DTLS Extension for SRTP Key Establishment", "layer": "session", "rfc_count": 1, "rfc_numbers": [5764]}
+{"protocol_acronym": null, "protocol_name": "DTLS Tunnel between Media Distributor and Key Distributor", "layer": "session", "rfc_count": 1, "rfc_numbers": [9185]}
+{"protocol_acronym": null, "protocol_name": "Dynamic Hostname Exchange Mechanism for IS-IS", "layer": "network", "rfc_count": 1, "rfc_numbers": [2763]}
+{"protocol_acronym": null, "protocol_name": "Dynamic Hostname Exchange Mechanism for OSPF", "layer": "network", "rfc_count": 1, "rfc_numbers": [5642]}
+{"protocol_acronym": null, "protocol_name": "Dynamic Subscription to YANG Events and Datastores over NETCONF", "layer": "application", "rfc_count": 1, "rfc_numbers": [8640]}
+{"protocol_acronym": null, "protocol_name": "Dynamic Subscription to YANG Events and Datastores over RESTCONF", "layer": "application", "rfc_count": 1, "rfc_numbers": [8650]}
+{"protocol_acronym": null, "protocol_name": "E.164 Number to DNS Mapping", "layer": "application", "rfc_count": 1, "rfc_numbers": [2916]}
+{"protocol_acronym": null, "protocol_name": "Early Retransmit", "layer": "transport", "rfc_count": 1, "rfc_numbers": [5827]}
+{"protocol_acronym": null, "protocol_name": "EBCDIC to ASCII Mapping", "layer": "presentation", "rfc_count": 1, "rfc_numbers": [183]}
+{"protocol_acronym": null, "protocol_name": "ECDHE_PSK Cipher Suites for TLS", "layer": "presentation", "rfc_count": 1, "rfc_numbers": [5489]}
+{"protocol_acronym": null, "protocol_name": "ECDHE_PSK with AES-GCM and AES-CCM Cipher Suites for TLS 1.2 and DTLS 1.2", "layer": "presentation", "rfc_count": 1, "rfc_numbers": [8442]}
+{"protocol_acronym": null, "protocol_name": "Echo Function for CLNP", "layer": "network", "rfc_count": 1, "rfc_numbers": [1575]}
+{"protocol_acronym": null, "protocol_name": "Echo function for ISO 8473", "layer": "network", "rfc_count": 1, "rfc_numbers": [1139]}
+{"protocol_acronym": null, "protocol_name": "Echo Protocol", "layer": "application", "rfc_count": 1, "rfc_numbers": [862]}
+{"protocol_acronym": null, "protocol_name": "Electronic Signature Formats for long term electronic signatures", "layer": "application", "rfc_count": 1, "rfc_numbers": [3126]}
+{"protocol_acronym": null, "protocol_name": "Electronic Signature Policies", "layer": "application", "rfc_count": 1, "rfc_numbers": [3125]}
+{"protocol_acronym": null, "protocol_name": "Email Exchange of Secondary School Transcripts", "layer": "application", "rfc_count": 1, "rfc_numbers": [7681]}
+{"protocol_acronym": null, "protocol_name": "Embedding RP Address in IPv6 Multicast Address", "layer": "network", "rfc_count": 1, "rfc_numbers": [3956]}
+{"protocol_acronym": null, "protocol_name": "Emergency call additional data conveyance", "layer": "application", "rfc_count": 1, "rfc_numbers": [7852]}
+{"protocol_acronym": null, "protocol_name": "Encapsulating IP over SCSI", "layer": "link", "rfc_count": 1, "rfc_numbers": [2143]}
+{"protocol_acronym": null, "protocol_name": "Encapsulation for MPLS Performance Measurement with Alternate-Marking Method", "layer": "network", "rfc_count": 1, "rfc_numbers": [9714]}
+{"protocol_acronym": null, "protocol_name": "Encapsulation Methods for Transport of Frame Relay over MPLS", "layer": "network", "rfc_count": 1, "rfc_numbers": [4619]}
+{"protocol_acronym": null, "protocol_name": "Encapsulation Methods for Transport of Layer 2 Frames over MPLS", "layer": "network", "rfc_count": 1, "rfc_numbers": [4905]}
+{"protocol_acronym": null, "protocol_name": "Encapsulation Methods for Transport of PPP/HDLC over MPLS", "layer": "network", "rfc_count": 1, "rfc_numbers": [4618]}
+{"protocol_acronym": null, "protocol_name": "Encapsulation of IP and ARP over FDDI", "layer": "link", "rfc_count": 1, "rfc_numbers": [1390]}
+{"protocol_acronym": null, "protocol_name": "Encoding Header Field", "layer": "application", "rfc_count": 1, "rfc_numbers": [1154]}
+{"protocol_acronym": null, "protocol_name": "Encoding Header Field for Internet Messages", "layer": "application", "rfc_count": 1, "rfc_numbers": [1505]}
+{"protocol_acronym": null, "protocol_name": "Encoding of Attributes for MPLS LSP Establishment Using RSVP-TE", "layer": "network", "rfc_count": 1, "rfc_numbers": [4420]}
+{"protocol_acronym": null, "protocol_name": "Encryption using KEA and SKIPJACK for FTP", "layer": "application", "rfc_count": 1, "rfc_numbers": [2773]}
+{"protocol_acronym": null, "protocol_name": "End-to-End Signing and Object Encryption for XMPP", "layer": "application", "rfc_count": 1, "rfc_numbers": [3923]}
+{"protocol_acronym": null, "protocol_name": "Enhanced Mail System Status Codes", "layer": "application", "rfc_count": 1, "rfc_numbers": [1893]}
+{"protocol_acronym": null, "protocol_name": "Enhanced Route Optimization for Mobile IPv6", "layer": "network", "rfc_count": 1, "rfc_numbers": [4866]}
+{"protocol_acronym": null, "protocol_name": "Entropy Labels in MPLS Forwarding", "layer": "network", "rfc_count": 1, "rfc_numbers": [6790]}
+{"protocol_acronym": null, "protocol_name": "ENUM Validation Information Mapping for EPP", "layer": "application", "rfc_count": 1, "rfc_numbers": [5076]}
+{"protocol_acronym": null, "protocol_name": "Enumeration Reference Format for IODEF", "layer": "application", "rfc_count": 1, "rfc_numbers": [7495]}
+{"protocol_acronym": null, "protocol_name": "EPP DNSSEC Extension Mapping", "layer": "application", "rfc_count": 1, "rfc_numbers": [5910]}
+{"protocol_acronym": null, "protocol_name": "ESP DES-CBC Transform", "layer": "network", "rfc_count": 1, "rfc_numbers": [1829]}
+{"protocol_acronym": null, "protocol_name": "Ethernet Traffic Parameters for GMPLS", "layer": "network", "rfc_count": 1, "rfc_numbers": [6003]}
+{"protocol_acronym": null, "protocol_name": "Ethernet Traffic Parameters with Availability Information", "layer": "network", "rfc_count": 1, "rfc_numbers": [8625]}
+{"protocol_acronym": null, "protocol_name": "Events for Modem, Fax, and Text Telephony Signals", "layer": "application", "rfc_count": 1, "rfc_numbers": [4734]}
+{"protocol_acronym": null, "protocol_name": "EVPN Port-Active Redundancy Mode", "layer": "network", "rfc_count": 1, "rfc_numbers": [9786]}
+{"protocol_acronym": null, "protocol_name": "Explicit Congestion Marking in MPLS", "layer": "network", "rfc_count": 1, "rfc_numbers": [5129]}
+{"protocol_acronym": null, "protocol_name": "Explicit Host-to-Network Flow Measurement Techniques", "layer": "transport", "rfc_count": 1, "rfc_numbers": [9506]}
+{"protocol_acronym": null, "protocol_name": "Exported Authenticators in TLS", "layer": "application", "rfc_count": 1, "rfc_numbers": [9261]}
+{"protocol_acronym": null, "protocol_name": "Extended DNS Errors", "layer": "application", "rfc_count": 1, "rfc_numbers": [8914]}
+{"protocol_acronym": null, "protocol_name": "Extended Facsimile Using Internet Mail", "layer": "application", "rfc_count": 1, "rfc_numbers": [2532]}
+{"protocol_acronym": null, "protocol_name": "Extensible Message Format for Message Tracking Responses", "layer": "application", "rfc_count": 1, "rfc_numbers": [3886]}
+{"protocol_acronym": null, "protocol_name": "Extension for EAP-Only Authentication in IKEv2", "layer": "network", "rfc_count": 1, "rfc_numbers": [5998]}
+{"protocol_acronym": null, "protocol_name": "Extension of RFC 6374-Based Performance Measurement Using Synonymous Flow Labels", "layer": "network", "rfc_count": 1, "rfc_numbers": [9571]}
+{"protocol_acronym": null, "protocol_name": "Extension to SIP for Request History Information", "layer": "application", "rfc_count": 1, "rfc_numbers": [4244]}
+{"protocol_acronym": null, "protocol_name": "Fail Over Extensions for L2TP", "layer": "session", "rfc_count": 1, "rfc_numbers": [4951]}
+{"protocol_acronym": null, "protocol_name": "Feed Paging and Archiving", "layer": "application", "rfc_count": 1, "rfc_numbers": [5005]}
+{"protocol_acronym": null, "protocol_name": "File Format for the Exchange of Images", "layer": "presentation", "rfc_count": 1, "rfc_numbers": [1314]}
+{"protocol_acronym": null, "protocol_name": "Filtering Location Notifications in SIP", "layer": "application", "rfc_count": 1, "rfc_numbers": [6447]}
+{"protocol_acronym": null, "protocol_name": "Flow Bindings in Mobile IPv6 and NEMO Basic Support", "layer": "network", "rfc_count": 1, "rfc_numbers": [6089]}
+{"protocol_acronym": null, "protocol_name": "Flow Bindings Initiated by Home Agents for Mobile IPv6", "layer": "network", "rfc_count": 1, "rfc_numbers": [7109]}
+{"protocol_acronym": null, "protocol_name": "Flow Specification", "layer": "other", "rfc_count": 1, "rfc_numbers": [1363]}
+{"protocol_acronym": null, "protocol_name": "Flow-Aware Transport of Pseudowires over MPLS", "layer": "network", "rfc_count": 1, "rfc_numbers": [6391]}
+{"protocol_acronym": null, "protocol_name": "Forcerenew Nonce Authentication", "layer": "application", "rfc_count": 1, "rfc_numbers": [6704]}
+{"protocol_acronym": null, "protocol_name": "Form-based File Upload in HTML", "layer": "application", "rfc_count": 1, "rfc_numbers": [1867]}
+{"protocol_acronym": null, "protocol_name": "Forward-Shifted RTP Redundancy Payload Support", "layer": "application", "rfc_count": 1, "rfc_numbers": [6354]}
+{"protocol_acronym": null, "protocol_name": "Forwarder Policy for MPL Admin-Local Scope", "layer": "network", "rfc_count": 1, "rfc_numbers": [7732]}
+{"protocol_acronym": null, "protocol_name": "Frame Relay over L2TPv3", "layer": "link", "rfc_count": 1, "rfc_numbers": [4591]}
+{"protocol_acronym": null, "protocol_name": "Framework for Centralized Conferencing", "layer": "application", "rfc_count": 1, "rfc_numbers": [5239]}
+{"protocol_acronym": null, "protocol_name": "Framework for Establishing SRTP Security Context Using DTLS", "layer": "application", "rfc_count": 1, "rfc_numbers": [5763]}
+{"protocol_acronym": null, "protocol_name": "Framing RTP and RTCP over Connection-Oriented Transport", "layer": "transport", "rfc_count": 1, "rfc_numbers": [4571]}
+{"protocol_acronym": null, "protocol_name": "Front-end Protocol B6700 version", "layer": "network", "rfc_count": 1, "rfc_numbers": [705]}
+{"protocol_acronym": null, "protocol_name": "FTP Transport for Secure Peer-to-Peer Business Data Interchange over the Internet", "layer": "application", "rfc_count": 1, "rfc_numbers": [4823]}
+{"protocol_acronym": null, "protocol_name": "General Network Element Constraint Encoding", "layer": "network", "rfc_count": 1, "rfc_numbers": [7579]}
+{"protocol_acronym": null, "protocol_name": "Generic Aggregate Resource ReSerVation Protocol Reservations", "layer": "network", "rfc_count": 1, "rfc_numbers": [4860]}
+{"protocol_acronym": null, "protocol_name": "Generic Event Delivery Using HTTP Push", "layer": "application", "rfc_count": 1, "rfc_numbers": [8030]}
+{"protocol_acronym": null, "protocol_name": "Generic Notification Message for Mobile IPv4", "layer": "application", "rfc_count": 1, "rfc_numbers": [6098]}
+{"protocol_acronym": null, "protocol_name": "Generic Packet Tunneling in IPv6", "layer": "network", "rfc_count": 1, "rfc_numbers": [2473]}
+{"protocol_acronym": null, "protocol_name": "GeoJSON Text Sequences", "layer": "application", "rfc_count": 1, "rfc_numbers": [8142]}
+{"protocol_acronym": null, "protocol_name": "GigaBeam High-Speed Radio Link Encryption", "layer": "link", "rfc_count": 1, "rfc_numbers": [4705]}
+{"protocol_acronym": null, "protocol_name": "GMPLS RSVP-TE Extensions for Ethernet OAM Configuration", "layer": "network", "rfc_count": 1, "rfc_numbers": [7369]}
+{"protocol_acronym": null, "protocol_name": "GMPLS RSVP-TE Upstream Label Assignment", "layer": "network", "rfc_count": 1, "rfc_numbers": [8359]}
+{"protocol_acronym": null, "protocol_name": "GOST Cipher Suites for TLS 1.2", "layer": "presentation", "rfc_count": 1, "rfc_numbers": [9189]}
+{"protocol_acronym": null, "protocol_name": "GPS-Based Addressing and Routing", "layer": "network", "rfc_count": 1, "rfc_numbers": [2009]}
+{"protocol_acronym": null, "protocol_name": "Graceful Restart Mechanism for BGP", "layer": "network", "rfc_count": 1, "rfc_numbers": [4724]}
+{"protocol_acronym": null, "protocol_name": "Greek Character Encoding for Electronic Mail Messages", "layer": "application", "rfc_count": 1, "rfc_numbers": [1947]}
+{"protocol_acronym": null, "protocol_name": "Group Key Management using IKEv2", "layer": "application", "rfc_count": 1, "rfc_numbers": [9838]}
+{"protocol_acronym": null, "protocol_name": "Group Text Chat Purpose for Conference and Service URIs", "layer": "application", "rfc_count": 1, "rfc_numbers": [7106]}
+{"protocol_acronym": null, "protocol_name": "GSS-API Authentication and Key Exchange for SSH", "layer": "application", "rfc_count": 1, "rfc_numbers": [4462]}
+{"protocol_acronym": null, "protocol_name": "GSTN Address Element Extensions in E-mail Services", "layer": "application", "rfc_count": 1, "rfc_numbers": [2846]}
+{"protocol_acronym": null, "protocol_name": "Header Protection for Cryptographically Protected Email", "layer": "application", "rfc_count": 1, "rfc_numbers": [9788]}
+{"protocol_acronym": null, "protocol_name": "HEMS Monitoring and Control Language", "layer": "application", "rfc_count": 1, "rfc_numbers": [1023]}
+{"protocol_acronym": null, "protocol_name": "Hiding Transit-Only Networks in OSPF", "layer": "network", "rfc_count": 1, "rfc_numbers": [6860]}
+{"protocol_acronym": null, "protocol_name": "Hierarchical IPv4 Framework", "layer": "network", "rfc_count": 1, "rfc_numbers": [6306]}
+{"protocol_acronym": null, "protocol_name": "Home Agent-Assisted Route Optimization between Mobile IPv4 Networks", "layer": "network", "rfc_count": 1, "rfc_numbers": [6521]}
+{"protocol_acronym": null, "protocol_name": "Homenet Profile of Babel", "layer": "network", "rfc_count": 1, "rfc_numbers": [9080]}
+{"protocol_acronym": null, "protocol_name": "Host extensions for IP multicasting", "layer": "network", "rfc_count": 2, "rfc_numbers": [988, 1054]}
+{"protocol_acronym": null, "protocol_name": "Host Group Extensions for CLNP Multicasting", "layer": "network", "rfc_count": 1, "rfc_numbers": [1768]}
+{"protocol_acronym": null, "protocol_name": "Host-Host Protocol", "layer": "network", "rfc_count": 6, "rfc_numbers": [102, 107, 317, 467, 604, 695]}
+{"protocol_acronym": null, "protocol_name": "Host/Host Protocol for an ARPANET-Type Network", "layer": "network", "rfc_count": 1, "rfc_numbers": [714]}
+{"protocol_acronym": null, "protocol_name": "Host/Host Protocol for the ARPA Network", "layer": "transport", "rfc_count": 1, "rfc_numbers": [6529]}
+{"protocol_acronym": null, "protocol_name": "Hostname Server Protocol", "layer": "application", "rfc_count": 1, "rfc_numbers": [953]}
+{"protocol_acronym": null, "protocol_name": "Hostnames Server", "layer": "application", "rfc_count": 1, "rfc_numbers": [811]}
+{"protocol_acronym": null, "protocol_name": "HTML Tables", "layer": "application", "rfc_count": 1, "rfc_numbers": [1942]}
+{"protocol_acronym": null, "protocol_name": "HTTP Alternative Services", "layer": "application", "rfc_count": 1, "rfc_numbers": [7838]}
+{"protocol_acronym": null, "protocol_name": "HTTP Authentication Extensions for Interactive Clients", "layer": "application", "rfc_count": 1, "rfc_numbers": [8053]}
+{"protocol_acronym": null, "protocol_name": "HTTP Client Hints", "layer": "application", "rfc_count": 1, "rfc_numbers": [8942]}
+{"protocol_acronym": null, "protocol_name": "HTTP Digest Access Authentication", "layer": "application", "rfc_count": 1, "rfc_numbers": [2069]}
+{"protocol_acronym": null, "protocol_name": "HTTP Extension Framework", "layer": "application", "rfc_count": 1, "rfc_numbers": [2774]}
+{"protocol_acronym": null, "protocol_name": "HTTP Immutable Responses", "layer": "application", "rfc_count": 1, "rfc_numbers": [8246]}
+{"protocol_acronym": null, "protocol_name": "HTTP Message Signatures", "layer": "application", "rfc_count": 1, "rfc_numbers": [9421]}
+{"protocol_acronym": null, "protocol_name": "HTTP Proxy-Status Parameter for Next-Hop Aliases", "layer": "application", "rfc_count": 1, "rfc_numbers": [9532]}
+{"protocol_acronym": null, "protocol_name": "HTTP Transfer for CMP", "layer": "application", "rfc_count": 1, "rfc_numbers": [9811]}
+{"protocol_acronym": null, "protocol_name": "HTTP Upgrade to TLS", "layer": "application", "rfc_count": 1, "rfc_numbers": [2817]}
+{"protocol_acronym": null, "protocol_name": "ICMP Extensions for MPLS", "layer": "network", "rfc_count": 1, "rfc_numbers": [4950]}
+{"protocol_acronym": null, "protocol_name": "ICMP Locator Update Message for ILNPv4", "layer": "network", "rfc_count": 1, "rfc_numbers": [6745]}
+{"protocol_acronym": null, "protocol_name": "ICMP Locator Update Message for ILNPv6", "layer": "network", "rfc_count": 1, "rfc_numbers": [6743]}
+{"protocol_acronym": null, "protocol_name": "ICMPv6 Errors for Discarding Packets", "layer": "network", "rfc_count": 1, "rfc_numbers": [8883]}
+{"protocol_acronym": null, "protocol_name": "ICN Ping Protocol", "layer": "application", "rfc_count": 1, "rfc_numbers": [9508]}
+{"protocol_acronym": null, "protocol_name": "ICN Traceroute Protocol", "layer": "application", "rfc_count": 1, "rfc_numbers": [9507]}
+{"protocol_acronym": null, "protocol_name": "Identity Representation for RSVP", "layer": "network", "rfc_count": 1, "rfc_numbers": [3182]}
+{"protocol_acronym": null, "protocol_name": "IEEE 802.11 MAC Profile for CAPWAP", "layer": "link", "rfc_count": 1, "rfc_numbers": [7494]}
+{"protocol_acronym": null, "protocol_name": "IGMP/MLD Proxy for EVPN", "layer": "network", "rfc_count": 1, "rfc_numbers": [9251]}
+{"protocol_acronym": null, "protocol_name": "IGP Flexible Algorithms", "layer": "network", "rfc_count": 1, "rfc_numbers": [9843]}
+{"protocol_acronym": null, "protocol_name": "IGP Routing Protocol Extensions for TE Node Capabilities", "layer": "network", "rfc_count": 1, "rfc_numbers": [5073]}
+{"protocol_acronym": null, "protocol_name": "IKEv2-Derived Shared Secret Key for OWAMP and TWAMP", "layer": "application", "rfc_count": 1, "rfc_numbers": [7717]}
+{"protocol_acronym": null, "protocol_name": "IKEv2/IPsec High Availability Extension", "layer": "transport", "rfc_count": 1, "rfc_numbers": [6311]}
+{"protocol_acronym": null, "protocol_name": "ILMI-Based Server Discovery for ATMARP", "layer": "network", "rfc_count": 1, "rfc_numbers": [2601]}
+{"protocol_acronym": null, "protocol_name": "IMAP COMPRESS Extension", "layer": "application", "rfc_count": 1, "rfc_numbers": [4978]}
+{"protocol_acronym": null, "protocol_name": "IMAP PARTIAL Extension", "layer": "application", "rfc_count": 1, "rfc_numbers": [9394]}
+{"protocol_acronym": null, "protocol_name": "IMAP URL Scheme", "layer": "application", "rfc_count": 1, "rfc_numbers": [5092]}
+{"protocol_acronym": null, "protocol_name": "IMAP4 Extension: Message Preview Generation", "layer": "application", "rfc_count": 1, "rfc_numbers": [8970]}
+{"protocol_acronym": null, "protocol_name": "IMAP4 Extensions for Quick Mailbox Resynchronization", "layer": "application", "rfc_count": 1, "rfc_numbers": [5162]}
+{"protocol_acronym": null, "protocol_name": "IMAP4 non-synchronizing literals", "layer": "application", "rfc_count": 1, "rfc_numbers": [2088]}
+{"protocol_acronym": null, "protocol_name": "IMAP4 SEARCH Extension", "layer": "application", "rfc_count": 1, "rfc_numbers": [4731]}
+{"protocol_acronym": null, "protocol_name": "IMP-to-Host Protocol", "layer": "network", "rfc_count": 1, "rfc_numbers": [312]}
+{"protocol_acronym": null, "protocol_name": "IMP/Host and Host/IMP Protocol", "layer": "network", "rfc_count": 1, "rfc_numbers": [704]}
+{"protocol_acronym": null, "protocol_name": "IMP/Host and Host/IMP Protocol changes", "layer": "network", "rfc_count": 1, "rfc_numbers": [687]}
+{"protocol_acronym": null, "protocol_name": "IMP/Host Interface Changes", "layer": "link", "rfc_count": 1, "rfc_numbers": [660]}
+{"protocol_acronym": null, "protocol_name": "IMP/Host Protocol", "layer": "link", "rfc_count": 1, "rfc_numbers": [611]}
+{"protocol_acronym": null, "protocol_name": "Implicit Initialization Vector for Counter-Based Ciphers in ESP", "layer": "network", "rfc_count": 1, "rfc_numbers": [8750]}
+{"protocol_acronym": null, "protocol_name": "Improved Arcfour Modes for SSH", "layer": "transport", "rfc_count": 1, "rfc_numbers": [4345]}
+{"protocol_acronym": null, "protocol_name": "Improved Recursive DNS Server Selection for Multi-Interfaced Nodes", "layer": "application", "rfc_count": 1, "rfc_numbers": [6731]}
+{"protocol_acronym": null, "protocol_name": "Indicating Supported Media Features Using Extensions to DSN and MDN", "layer": "application", "rfc_count": 1, "rfc_numbers": [2530]}
+{"protocol_acronym": null, "protocol_name": "Indication of Conference Focus Support for CCMP", "layer": "application", "rfc_count": 1, "rfc_numbers": [7082]}
+{"protocol_acronym": null, "protocol_name": "Indication of Message Composition for Instant Messaging", "layer": "application", "rfc_count": 1, "rfc_numbers": [3994]}
+{"protocol_acronym": null, "protocol_name": "Information Refresh Time Option for DHCPv6", "layer": "network", "rfc_count": 1, "rfc_numbers": [4242]}
+{"protocol_acronym": null, "protocol_name": "Instance Digests in HTTP", "layer": "application", "rfc_count": 1, "rfc_numbers": [3230]}
+{"protocol_acronym": null, "protocol_name": "Integrated Services Mappings for Low Speed Networks", "layer": "network", "rfc_count": 1, "rfc_numbers": [2688]}
+{"protocol_acronym": null, "protocol_name": "Inter-Area P2MP Segmented LSPs", "layer": "network", "rfc_count": 1, "rfc_numbers": [7524]}
+{"protocol_acronym": null, "protocol_name": "Internationalized Delivery Status and Disposition Notifications", "layer": "application", "rfc_count": 2, "rfc_numbers": [5337, 6533]}
+{"protocol_acronym": null, "protocol_name": "Internationalized Email Addresses in X.509 Certificates", "layer": "application", "rfc_count": 1, "rfc_numbers": [8398]}
+{"protocol_acronym": null, "protocol_name": "Internationalized Email Headers", "layer": "application", "rfc_count": 2, "rfc_numbers": [5335, 6532]}
+{"protocol_acronym": null, "protocol_name": "Internet Kermit Service", "layer": "application", "rfc_count": 1, "rfc_numbers": [2839]}
+{"protocol_acronym": null, "protocol_name": "Internet Message Format", "layer": "application", "rfc_count": 1, "rfc_numbers": [2822]}
+{"protocol_acronym": null, "protocol_name": "Internet protocol encapsulation of AX.25 frames", "layer": "network", "rfc_count": 1, "rfc_numbers": [1226]}
+{"protocol_acronym": null, "protocol_name": "Internet Protocol on HYPERchannel", "layer": "link", "rfc_count": 1, "rfc_numbers": [1044]}
+{"protocol_acronym": null, "protocol_name": "Internet X.509 Public Key Infrastructure: Logotypes in X.509 Certificates", "layer": "application", "rfc_count": 1, "rfc_numbers": [9399]}
+{"protocol_acronym": null, "protocol_name": "Interworking between SIP and XMPP for Groupchat", "layer": "application", "rfc_count": 1, "rfc_numbers": [7702]}
+{"protocol_acronym": null, "protocol_name": "INVITE-Initiated Dialog Event Package for SIP", "layer": "application", "rfc_count": 1, "rfc_numbers": [4235]}
+{"protocol_acronym": null, "protocol_name": "IP and ARP on HIPPI", "layer": "network", "rfc_count": 1, "rfc_numbers": [1374]}
+{"protocol_acronym": null, "protocol_name": "IP and ARP over ARCNET", "layer": "link", "rfc_count": 1, "rfc_numbers": [1051]}
+{"protocol_acronym": null, "protocol_name": "IP and ARP over Fibre Channel", "layer": "link", "rfc_count": 1, "rfc_numbers": [2625]}
+{"protocol_acronym": null, "protocol_name": "IP and ARP over HIPPI-6400 (GSN)", "layer": "network", "rfc_count": 1, "rfc_numbers": [2835]}
+{"protocol_acronym": null, "protocol_name": "IP Authentication using Keyed MD5", "layer": "network", "rfc_count": 1, "rfc_numbers": [1828]}
+{"protocol_acronym": null, "protocol_name": "IP Authentication using Keyed SHA", "layer": "network", "rfc_count": 1, "rfc_numbers": [1852]}
+{"protocol_acronym": null, "protocol_name": "IP Broadcast over ATM Networks", "layer": "network", "rfc_count": 1, "rfc_numbers": [2226]}
+{"protocol_acronym": null, "protocol_name": "IP Echo Host Service", "layer": "network", "rfc_count": 1, "rfc_numbers": [2075]}
+{"protocol_acronym": null, "protocol_name": "IP Header Compression over PPP", "layer": "link", "rfc_count": 1, "rfc_numbers": [3544]}
+{"protocol_acronym": null, "protocol_name": "IP in IP Tunneling", "layer": "network", "rfc_count": 1, "rfc_numbers": [1853]}
+{"protocol_acronym": null, "protocol_name": "IP Information in X.500 Directory", "layer": "application", "rfc_count": 1, "rfc_numbers": [1608]}
+{"protocol_acronym": null, "protocol_name": "IP MTU Discovery Options", "layer": "network", "rfc_count": 1, "rfc_numbers": [1063]}
+{"protocol_acronym": null, "protocol_name": "IP Multicast over Token-Ring Local Area Networks", "layer": "link", "rfc_count": 1, "rfc_numbers": [1469]}
+{"protocol_acronym": null, "protocol_name": "IP over ATM Encapsulation", "layer": "network", "rfc_count": 1, "rfc_numbers": [1926]}
+{"protocol_acronym": null, "protocol_name": "IP over HIPPI", "layer": "network", "rfc_count": 1, "rfc_numbers": [2067]}
+{"protocol_acronym": null, "protocol_name": "IP over IEEE 802.3 Encapsulation", "layer": "link", "rfc_count": 1, "rfc_numbers": [948]}
+{"protocol_acronym": null, "protocol_name": "IP over NetBIOS", "layer": "network", "rfc_count": 1, "rfc_numbers": [1088]}
+{"protocol_acronym": null, "protocol_name": "IP Prefix Advertisement in EVPN", "layer": "network", "rfc_count": 1, "rfc_numbers": [9136]}
+{"protocol_acronym": null, "protocol_name": "IP Router Alert Option", "layer": "network", "rfc_count": 1, "rfc_numbers": [2113]}
+{"protocol_acronym": null, "protocol_name": "IPsec Channels: Connection Latching", "layer": "network", "rfc_count": 1, "rfc_numbers": [5660]}
+{"protocol_acronym": null, "protocol_name": "IPv4 Link-Local Address Configuration", "layer": "network", "rfc_count": 1, "rfc_numbers": [3927]}
+{"protocol_acronym": null, "protocol_name": "IPv4 Multicast over IPv6 Multicast in Softwire Mesh Networks", "layer": "network", "rfc_count": 1, "rfc_numbers": [8638]}
+{"protocol_acronym": null, "protocol_name": "IPv4 over IEEE 1394", "layer": "link", "rfc_count": 1, "rfc_numbers": [2734]}
+{"protocol_acronym": null, "protocol_name": "IPv4-in-IPv6 Encapsulation for Multicast", "layer": "network", "rfc_count": 1, "rfc_numbers": [8114]}
+{"protocol_acronym": null, "protocol_name": "IPv6 Address Specific BGP Extended Community", "layer": "network", "rfc_count": 1, "rfc_numbers": [5701]}
+{"protocol_acronym": null, "protocol_name": "IPv6 Addressing Architecture", "layer": "network", "rfc_count": 1, "rfc_numbers": [1884]}
+{"protocol_acronym": null, "protocol_name": "IPv6 Addressing of IPv4/IPv6 Translators", "layer": "network", "rfc_count": 1, "rfc_numbers": [6052]}
+{"protocol_acronym": null, "protocol_name": "IPv6 Application of the Alternate-Marking Method", "layer": "network", "rfc_count": 1, "rfc_numbers": [9343]}
+{"protocol_acronym": null, "protocol_name": "IPv6 Backbone Router", "layer": "network", "rfc_count": 1, "rfc_numbers": [8929]}
+{"protocol_acronym": null, "protocol_name": "IPv6 Datagram Compression Option for IPV6CP", "layer": "network", "rfc_count": 1, "rfc_numbers": [5172]}
+{"protocol_acronym": null, "protocol_name": "IPv6 Mesh over Bluetooth Low Energy using IPSP", "layer": "network", "rfc_count": 1, "rfc_numbers": [9159]}
+{"protocol_acronym": "", "protocol_name": "IPv6 Minimum Path MTU Hop-by-Hop Option", "layer": "network", "rfc_count": 1, "rfc_numbers": [9268]}
+{"protocol_acronym": null, "protocol_name": "IPv6 Node Information Queries", "layer": "network", "rfc_count": 1, "rfc_numbers": [4620]}
+{"protocol_acronym": null, "protocol_name": "IPv6 Nonce Destination Option for ILNPv6", "layer": "network", "rfc_count": 1, "rfc_numbers": [6744]}
+{"protocol_acronym": null, "protocol_name": "IPv6 over ATM", "layer": "network", "rfc_count": 1, "rfc_numbers": [2492]}
+{"protocol_acronym": null, "protocol_name": "IPv6 over Ethernet", "layer": "link", "rfc_count": 1, "rfc_numbers": [1972]}
+{"protocol_acronym": null, "protocol_name": "IPv6 over Frame Relay", "layer": "network", "rfc_count": 1, "rfc_numbers": [2590]}
+{"protocol_acronym": null, "protocol_name": "IPv6 over IEEE 802.16", "layer": "network", "rfc_count": 1, "rfc_numbers": [5121]}
+{"protocol_acronym": null, "protocol_name": "IPv6 over MS/TP", "layer": "link", "rfc_count": 1, "rfc_numbers": [8163]}
+{"protocol_acronym": null, "protocol_name": "IPv6 over NFC", "layer": "link", "rfc_count": 1, "rfc_numbers": [9428]}
+{"protocol_acronym": null, "protocol_name": "IPv6 over PPP", "layer": "link", "rfc_count": 1, "rfc_numbers": [2023]}
+{"protocol_acronym": null, "protocol_name": "IPv6 Prefix Length on Inter-Router Links", "layer": "network", "rfc_count": 1, "rfc_numbers": [6164]}
+{"protocol_acronym": null, "protocol_name": "IPv6 Router Advertisement Flags Option", "layer": "network", "rfc_count": 2, "rfc_numbers": [5075, 5175]}
+{"protocol_acronym": null, "protocol_name": "IPv6 Router Advertisement Option for DNS Configuration", "layer": "network", "rfc_count": 1, "rfc_numbers": [5006]}
+{"protocol_acronym": null, "protocol_name": "IPv6 Router Advertisement Options for DNS Configuration", "layer": "network", "rfc_count": 1, "rfc_numbers": [6106]}
+{"protocol_acronym": null, "protocol_name": "IPv6 Router Alert Option", "layer": "network", "rfc_count": 1, "rfc_numbers": [2711]}
+{"protocol_acronym": null, "protocol_name": "IPv6 Stateless Address Autoconfiguration", "layer": "network", "rfc_count": 2, "rfc_numbers": [1971, 4862]}
+{"protocol_acronym": null, "protocol_name": "IPv6 Testing Address Allocation", "layer": "network", "rfc_count": 1, "rfc_numbers": [1897]}
+{"protocol_acronym": null, "protocol_name": "IPv6 VPN Service Destination Option", "layer": "network", "rfc_count": 1, "rfc_numbers": [9837]}
+{"protocol_acronym": null, "protocol_name": "IPv6-Only Preferred Option for DHCPv4", "layer": "network", "rfc_count": 1, "rfc_numbers": [8925]}
+{"protocol_acronym": null, "protocol_name": "IRIs and URIs for XMPP", "layer": "application", "rfc_count": 1, "rfc_numbers": [4622]}
+{"protocol_acronym": null, "protocol_name": "IS-IS and OSPF Unreachable Prefix Announcement", "layer": "network", "rfc_count": 1, "rfc_numbers": [9929]}
+{"protocol_acronym": null, "protocol_name": "IS-IS Application-Specific Link Attributes", "layer": "network", "rfc_count": 1, "rfc_numbers": [8919]}
+{"protocol_acronym": null, "protocol_name": "IS-IS Cryptographic Authentication", "layer": "network", "rfc_count": 1, "rfc_numbers": [3567]}
+{"protocol_acronym": null, "protocol_name": "IS-IS Extended Sequence Number TLV", "layer": "network", "rfc_count": 1, "rfc_numbers": [7602]}
+{"protocol_acronym": null, "protocol_name": "IS-IS extension for S-BFD Discriminators", "layer": "network", "rfc_count": 1, "rfc_numbers": [7883]}
+{"protocol_acronym": null, "protocol_name": "IS-IS Extensions for Inter-AS MPLS and GMPLS TE", "layer": "network", "rfc_count": 1, "rfc_numbers": [9346]}
+{"protocol_acronym": null, "protocol_name": "IS-IS IPv6 Traffic Engineering", "layer": "network", "rfc_count": 1, "rfc_numbers": [6119]}
+{"protocol_acronym": null, "protocol_name": "IS-IS LSP Fragment Extension", "layer": "network", "rfc_count": 1, "rfc_numbers": [3786]}
+{"protocol_acronym": null, "protocol_name": "IS-IS Prefix Attributes for Extended IPv4 and IPv6 Reachability", "layer": "network", "rfc_count": 1, "rfc_numbers": [7794]}
+{"protocol_acronym": null, "protocol_name": "ISO presentation services on top of TCP/IP", "layer": "presentation", "rfc_count": 1, "rfc_numbers": [1085]}
+{"protocol_acronym": null, "protocol_name": "ISO Transport Class 2 Non-use of Explicit Flow Control over TCP RFC1006 extension", "layer": "transport", "rfc_count": 1, "rfc_numbers": [1859]}
+{"protocol_acronym": null, "protocol_name": "ISO Transport Service on top of TCP", "layer": "transport", "rfc_count": 2, "rfc_numbers": [983, 1006]}
+{"protocol_acronym": null, "protocol_name": "ISO-TP0 bridge between TCP and X.25", "layer": "transport", "rfc_count": 1, "rfc_numbers": [1086]}
+{"protocol_acronym": null, "protocol_name": "IUTF8 Terminal Mode in SSH", "layer": "application", "rfc_count": 1, "rfc_numbers": [8160]}
+{"protocol_acronym": null, "protocol_name": "Jabber-ID Header Field", "layer": "application", "rfc_count": 1, "rfc_numbers": [7259]}
+{"protocol_acronym": null, "protocol_name": "JSON Merge Patch", "layer": "application", "rfc_count": 1, "rfc_numbers": [7386]}
+{"protocol_acronym": null, "protocol_name": "JSONPath Query Expressions", "layer": "application", "rfc_count": 1, "rfc_numbers": [9535]}
+{"protocol_acronym": null, "protocol_name": "JWT Profile for OAuth 2.0", "layer": "application", "rfc_count": 1, "rfc_numbers": [7523]}
+{"protocol_acronym": null, "protocol_name": "Kerberos Anonymity Support", "layer": "application", "rfc_count": 1, "rfc_numbers": [6112]}
+{"protocol_acronym": null, "protocol_name": "Kerberos Pre-Authentication Framework", "layer": "application", "rfc_count": 1, "rfc_numbers": [6113]}
+{"protocol_acronym": null, "protocol_name": "Kerberos Principal Name Canonicalization and Cross-Realm Referrals", "layer": "application", "rfc_count": 1, "rfc_numbers": [6806]}
+{"protocol_acronym": null, "protocol_name": "Kerberos Version 5 GSS-API Mechanism", "layer": "application", "rfc_count": 1, "rfc_numbers": [1964]}
+{"protocol_acronym": null, "protocol_name": "Key Distribution Center Server Address Sub-option for DHCP CCC Option", "layer": "application", "rfc_count": 1, "rfc_numbers": [3634]}
+{"protocol_acronym": null, "protocol_name": "Key Management Extensions for SDP and RTSP", "layer": "session", "rfc_count": 1, "rfc_numbers": [4567]}
+{"protocol_acronym": null, "protocol_name": "Labeled IPsec Traffic Selector Support for IKEv2", "layer": "network", "rfc_count": 1, "rfc_numbers": [9478]}
+{"protocol_acronym": null, "protocol_name": "Language Tag Matching", "layer": "application", "rfc_count": 1, "rfc_numbers": [4647]}
+{"protocol_acronym": null, "protocol_name": "Language Tags", "layer": "application", "rfc_count": 1, "rfc_numbers": [4646]}
+{"protocol_acronym": null, "protocol_name": "LDAP Control and Schema for Operation Signatures", "layer": "application", "rfc_count": 1, "rfc_numbers": [2649]}
+{"protocol_acronym": null, "protocol_name": "LDAP Dynamic Directory Extensions", "layer": "application", "rfc_count": 1, "rfc_numbers": [2589]}
+{"protocol_acronym": null, "protocol_name": "LDAP Transactions", "layer": "application", "rfc_count": 1, "rfc_numbers": [5805]}
+{"protocol_acronym": null, "protocol_name": "leaptofrogans URI scheme", "layer": "application", "rfc_count": 1, "rfc_numbers": [8589]}
+{"protocol_acronym": null, "protocol_name": "Legacy RSASSA-PKCS1-v1_5 Code Points for TLS 1.3", "layer": "application", "rfc_count": 1, "rfc_numbers": [9963]}
+{"protocol_acronym": null, "protocol_name": "Level 0 Graphic Input Protocol", "layer": "application", "rfc_count": 1, "rfc_numbers": [336]}
+{"protocol_acronym": null, "protocol_name": "Level III Server Protocol", "layer": "application", "rfc_count": 1, "rfc_numbers": [109]}
+{"protocol_acronym": null, "protocol_name": "Lightweight UDP Transfer Protocol for IRIS", "layer": "transport", "rfc_count": 1, "rfc_numbers": [4993]}
+{"protocol_acronym": null, "protocol_name": "Line-Identification Option", "layer": "network", "rfc_count": 1, "rfc_numbers": [6788]}
+{"protocol_acronym": null, "protocol_name": "Link-Layer Address Assignment Mechanism for DHCPv6", "layer": "link", "rfc_count": 1, "rfc_numbers": [8947]}
+{"protocol_acronym": null, "protocol_name": "Link-Layer Tunneling Mechanism for Unidirectional Links", "layer": "link", "rfc_count": 1, "rfc_numbers": [3077]}
+{"protocol_acronym": null, "protocol_name": "Link-type sub-TLV for unconstrained TE LSP count", "layer": "network", "rfc_count": 1, "rfc_numbers": [5330]}
+{"protocol_acronym": null, "protocol_name": "Linkset Media Types and Link Relation Type", "layer": "application", "rfc_count": 1, "rfc_numbers": [9264]}
+{"protocol_acronym": null, "protocol_name": "Linux Netlink as an IP Services Protocol", "layer": "network", "rfc_count": 1, "rfc_numbers": [3549]}
+{"protocol_acronym": null, "protocol_name": "List-Id Header Field", "layer": "application", "rfc_count": 1, "rfc_numbers": [2919]}
+{"protocol_acronym": null, "protocol_name": "Load-Balancing for Mesh Softwires", "layer": "network", "rfc_count": 1, "rfc_numbers": [5640]}
+{"protocol_acronym": null, "protocol_name": "Local DNS Authority in Validated Split-Horizon Environments", "layer": "application", "rfc_count": 1, "rfc_numbers": [9704]}
+{"protocol_acronym": null, "protocol_name": "Location-Independent Data/Software Integrity Protocol", "layer": "application", "rfc_count": 1, "rfc_numbers": [1805]}
+{"protocol_acronym": null, "protocol_name": "Logger Protocol", "layer": "application", "rfc_count": 2, "rfc_numbers": [56, 98]}
+{"protocol_acronym": null, "protocol_name": "Looking Glass Command Set", "layer": "application", "rfc_count": 1, "rfc_numbers": [8522]}
+{"protocol_acronym": null, "protocol_name": "LoST Mapping Exchange Protocol", "layer": "application", "rfc_count": 1, "rfc_numbers": [6739]}
+{"protocol_acronym": null, "protocol_name": "Lost message detection and recovery protocol", "layer": "transport", "rfc_count": 1, "rfc_numbers": [663]}
+{"protocol_acronym": null, "protocol_name": "LSA Options Bit for Loop Prevention in BGP/MPLS IP VPNs", "layer": "network", "rfc_count": 1, "rfc_numbers": [4576]}
+{"protocol_acronym": null, "protocol_name": "MAC Address Withdrawal over Static Pseudowire", "layer": "link", "rfc_count": 1, "rfc_numbers": [7769]}
+{"protocol_acronym": null, "protocol_name": "MAC Authentication for the Babel Routing Protocol", "layer": "network", "rfc_count": 1, "rfc_numbers": [8967]}
+{"protocol_acronym": null, "protocol_name": "Mail Monitoring MIB", "layer": "application", "rfc_count": 1, "rfc_numbers": [1566]}
+{"protocol_acronym": null, "protocol_name": "Mail Protocol", "layer": "application", "rfc_count": 1, "rfc_numbers": [524]}
+{"protocol_acronym": null, "protocol_name": "mailto URL scheme", "layer": "application", "rfc_count": 1, "rfc_numbers": [2368]}
+{"protocol_acronym": null, "protocol_name": "Managed Objects for ATM over Packet Switched Networks", "layer": "other", "rfc_count": 1, "rfc_numbers": [5605]}
+{"protocol_acronym": null, "protocol_name": "Mapping between full RFC 822 and RFC 822 with restricted encoding", "layer": "application", "rfc_count": 1, "rfc_numbers": [1137]}
+{"protocol_acronym": null, "protocol_name": "Mapping between X.400 and Mail-11", "layer": "application", "rfc_count": 1, "rfc_numbers": [1405]}
+{"protocol_acronym": null, "protocol_name": "Mapping between X.400 and RFC 822", "layer": "application", "rfc_count": 2, "rfc_numbers": [987, 1327]}
+{"protocol_acronym": null, "protocol_name": "Mapping between X.400 and RFC-822", "layer": "application", "rfc_count": 1, "rfc_numbers": [1026]}
+{"protocol_acronym": null, "protocol_name": "Mapping between X.400 and RFC-822/MIME Message Bodies", "layer": "application", "rfc_count": 1, "rfc_numbers": [2157]}
+{"protocol_acronym": null, "protocol_name": "Mapping of Airline Reservation, Ticketing, and Messaging Traffic over IP", "layer": "application", "rfc_count": 1, "rfc_numbers": [2351]}
+{"protocol_acronym": null, "protocol_name": "Mapping RTP Streams to CLUE Media Captures", "layer": "application", "rfc_count": 1, "rfc_numbers": [8849]}
+{"protocol_acronym": null, "protocol_name": "Mapping the BEEP Core onto TCP", "layer": "transport", "rfc_count": 1, "rfc_numbers": [3081]}
+{"protocol_acronym": null, "protocol_name": "Master Key between PANA Client and Enforcement Point", "layer": "other", "rfc_count": 1, "rfc_numbers": [5807]}
+{"protocol_acronym": null, "protocol_name": "Mechanisms for MPLS Ping and Traceroute in Inter-Domain SR", "layer": "network", "rfc_count": 1, "rfc_numbers": [9716]}
+{"protocol_acronym": null, "protocol_name": "Media Control Channel Framework Package for Mixers", "layer": "application", "rfc_count": 1, "rfc_numbers": [6505]}
+{"protocol_acronym": null, "protocol_name": "Media Description for IKE in SDP", "layer": "application", "rfc_count": 1, "rfc_numbers": [6193]}
+{"protocol_acronym": null, "protocol_name": "Media-Based Traceroute for SIP", "layer": "application", "rfc_count": 1, "rfc_numbers": [7403]}
+{"protocol_acronym": null, "protocol_name": "Message Data Types", "layer": "application", "rfc_count": 1, "rfc_numbers": [42]}
+{"protocol_acronym": null, "protocol_name": "Message encapsulation protocol", "layer": "application", "rfc_count": 1, "rfc_numbers": [934]}
+{"protocol_acronym": null, "protocol_name": "Message Format for Computer Based Message Systems", "layer": "application", "rfc_count": 2, "rfc_numbers": [806, 841]}
+{"protocol_acronym": null, "protocol_name": "Message Submission", "layer": "application", "rfc_count": 1, "rfc_numbers": [2476]}
+{"protocol_acronym": null, "protocol_name": "Message Submission for Mail", "layer": "application", "rfc_count": 1, "rfc_numbers": [6409]}
+{"protocol_acronym": null, "protocol_name": "Message Tracking Query Protocol", "layer": "application", "rfc_count": 1, "rfc_numbers": [3887]}
+{"protocol_acronym": null, "protocol_name": "Message-Context Header", "layer": "application", "rfc_count": 1, "rfc_numbers": [3458]}
+{"protocol_acronym": null, "protocol_name": "Message/External-Body Content-ID Access Type", "layer": "application", "rfc_count": 1, "rfc_numbers": [1873]}
+{"protocol_acronym": null, "protocol_name": "Method for Generating Link-Scoped IPv6 Multicast Addresses", "layer": "network", "rfc_count": 1, "rfc_numbers": [4489]}
+{"protocol_acronym": null, "protocol_name": "Method for Generating Semantically Opaque Interface Identifiers with IPv6 SLAAC", "layer": "network", "rfc_count": 1, "rfc_numbers": [7217]}
+{"protocol_acronym": null, "protocol_name": "MGCP Advanced Audio Package", "layer": "application", "rfc_count": 1, "rfc_numbers": [2897]}
+{"protocol_acronym": null, "protocol_name": "MHS use of X.500 Directory for Routing", "layer": "application", "rfc_count": 1, "rfc_numbers": [1801]}
+{"protocol_acronym": null, "protocol_name": "Microsoft Windows 2000 Kerberos Change Password and Set Password Protocols", "layer": "application", "rfc_count": 1, "rfc_numbers": [3244]}
+{"protocol_acronym": null, "protocol_name": "MIME Body Part for FAX", "layer": "application", "rfc_count": 1, "rfc_numbers": [2159]}
+{"protocol_acronym": null, "protocol_name": "MIME Body Part for ODA", "layer": "application", "rfc_count": 1, "rfc_numbers": [2161]}
+{"protocol_acronym": null, "protocol_name": "MIME Content Type for BinHex Encoded Files", "layer": "application", "rfc_count": 1, "rfc_numbers": [1741]}
+{"protocol_acronym": null, "protocol_name": "MIME Content Types in Media Feature Expressions", "layer": "application", "rfc_count": 1, "rfc_numbers": [2913]}
+{"protocol_acronym": null, "protocol_name": "MIME Content-features Header", "layer": "application", "rfc_count": 1, "rfc_numbers": [2912]}
+{"protocol_acronym": null, "protocol_name": "MIME Encapsulation of EDI Objects", "layer": "application", "rfc_count": 1, "rfc_numbers": [1767]}
+{"protocol_acronym": null, "protocol_name": "MIME Parameter Value and Encoded Word Extensions", "layer": "application", "rfc_count": 1, "rfc_numbers": [2184]}
+{"protocol_acronym": null, "protocol_name": "MIME-based Secure Peer-to-Peer Business Data Interchange", "layer": "application", "rfc_count": 1, "rfc_numbers": [3335]}
+{"protocol_acronym": null, "protocol_name": "Minimal FAX address format in Internet Mail", "layer": "application", "rfc_count": 2, "rfc_numbers": [2304, 3192]}
+{"protocol_acronym": null, "protocol_name": "Minimal PSTN address format in Internet Mail", "layer": "application", "rfc_count": 1, "rfc_numbers": [2303]}
+{"protocol_acronym": null, "protocol_name": "Mobile IP Network Access Identifier Extension for IPv4", "layer": "network", "rfc_count": 1, "rfc_numbers": [2794]}
+{"protocol_acronym": null, "protocol_name": "Mobile IP Vendor/Organization-Specific Extensions", "layer": "network", "rfc_count": 1, "rfc_numbers": [3025]}
+{"protocol_acronym": "", "protocol_name": "Mobile IPv4 Challenge/Response Extensions", "layer": "network", "rfc_count": 2, "rfc_numbers": [3012, 4721]}
+{"protocol_acronym": null, "protocol_name": "Mobile IPv4 Dynamic Home Agent Assignment", "layer": "network", "rfc_count": 1, "rfc_numbers": [4433]}
+{"protocol_acronym": null, "protocol_name": "Mobile IPv4 Fast Handovers", "layer": "network", "rfc_count": 1, "rfc_numbers": [4988]}
+{"protocol_acronym": null, "protocol_name": "Mobile IPv4 Regional Registration", "layer": "network", "rfc_count": 1, "rfc_numbers": [4857]}
+{"protocol_acronym": null, "protocol_name": "Mobile IPv4 Registration Revocation", "layer": "network", "rfc_count": 1, "rfc_numbers": [3543]}
+{"protocol_acronym": null, "protocol_name": "Mobile IPv6 Experimental Messages", "layer": "network", "rfc_count": 1, "rfc_numbers": [5096]}
+{"protocol_acronym": null, "protocol_name": "Mobile IPv6 Fast Handovers", "layer": "network", "rfc_count": 1, "rfc_numbers": [5568]}
+{"protocol_acronym": null, "protocol_name": "Mobile IPv6 Vendor Specific Option", "layer": "network", "rfc_count": 1, "rfc_numbers": [5094]}
+{"protocol_acronym": null, "protocol_name": "Mobile-IPv4 Configuration Option for PPP IPCP", "layer": "network", "rfc_count": 1, "rfc_numbers": [2290]}
+{"protocol_acronym": null, "protocol_name": "Mobility Header Home Agent Switch Message", "layer": "network", "rfc_count": 1, "rfc_numbers": [5142]}
+{"protocol_acronym": null, "protocol_name": "Modification to Default Values of SOL_MAX_RT and INF_MAX_RT", "layer": "network", "rfc_count": 1, "rfc_numbers": [7083]}
+{"protocol_acronym": null, "protocol_name": "Modifications to Device Independent Graphical Display Description", "layer": "application", "rfc_count": 1, "rfc_numbers": [181]}
+{"protocol_acronym": null, "protocol_name": "MPLS and Ethernet OAM Interworking", "layer": "network", "rfc_count": 1, "rfc_numbers": [7023]}
+{"protocol_acronym": null, "protocol_name": "MPLS LSP Pseudowire Status Refresh Reduction for Static PWs", "layer": "network", "rfc_count": 1, "rfc_numbers": [8237]}
+{"protocol_acronym": null, "protocol_name": "MPLS Multicast Encapsulations", "layer": "link", "rfc_count": 1, "rfc_numbers": [5332]}
+{"protocol_acronym": null, "protocol_name": "MPLS Upstream Label Assignment and Context-Specific Label Space", "layer": "network", "rfc_count": 1, "rfc_numbers": [5331]}
+{"protocol_acronym": null, "protocol_name": "MQTT and TLS Profile of ACE Framework", "layer": "application", "rfc_count": 1, "rfc_numbers": [9431]}
+{"protocol_acronym": null, "protocol_name": "Multi-homing using Mobile IP and NEMO", "layer": "network", "rfc_count": 1, "rfc_numbers": [4908]}
+{"protocol_acronym": null, "protocol_name": "Multi-LAN Address Resolution", "layer": "network", "rfc_count": 1, "rfc_numbers": [925]}
+{"protocol_acronym": null, "protocol_name": "Multicast over UNI 3.0/3.1 based ATM Networks", "layer": "network", "rfc_count": 1, "rfc_numbers": [2022]}
+{"protocol_acronym": null, "protocol_name": "Multicast Ping Protocol", "layer": "network", "rfc_count": 1, "rfc_numbers": [6450]}
+{"protocol_acronym": null, "protocol_name": "Multipart Multilingual Content Type", "layer": "application", "rfc_count": 1, "rfc_numbers": [8255]}
+{"protocol_acronym": null, "protocol_name": "Multipart/Related", "layer": "application", "rfc_count": 1, "rfc_numbers": [2112]}
+{"protocol_acronym": null, "protocol_name": "Multiple-Recipient MESSAGE Requests", "layer": "application", "rfc_count": 1, "rfc_numbers": [5365]}
+{"protocol_acronym": null, "protocol_name": "Multiplexing RTP Data and Control Packets", "layer": "application", "rfc_count": 1, "rfc_numbers": [5761]}
+{"protocol_acronym": null, "protocol_name": "Multiprotocol Encapsulation over ATM AAL5", "layer": "link", "rfc_count": 1, "rfc_numbers": [1483]}
+{"protocol_acronym": null, "protocol_name": "Multiprotocol Interconnect on X.25 and ISDN", "layer": "network", "rfc_count": 1, "rfc_numbers": [1356]}
+{"protocol_acronym": null, "protocol_name": "Multiprotocol Interconnect over Frame Relay", "layer": "network", "rfc_count": 3, "rfc_numbers": [1294, 1490, 2427]}
+{"protocol_acronym": null, "protocol_name": "NAME/FINGER Protocol", "layer": "application", "rfc_count": 1, "rfc_numbers": [742]}
+{"protocol_acronym": null, "protocol_name": "Naming Things with Hashes", "layer": "application", "rfc_count": 1, "rfc_numbers": [6920]}
+{"protocol_acronym": null, "protocol_name": "Neighbor Discovery for IP Version 6", "layer": "network", "rfc_count": 1, "rfc_numbers": [1970]}
+{"protocol_acronym": null, "protocol_name": "NETCONF Access Control Model", "layer": "application", "rfc_count": 1, "rfc_numbers": [6536]}
+{"protocol_acronym": null, "protocol_name": "NETCONF Call Home and RESTCONF Call Home", "layer": "application", "rfc_count": 1, "rfc_numbers": [8071]}
+{"protocol_acronym": null, "protocol_name": "NETCONF Event Notifications", "layer": "application", "rfc_count": 1, "rfc_numbers": [5277]}
+{"protocol_acronym": null, "protocol_name": "NETCONF over TLS with Mutual X.509 Authentication", "layer": "application", "rfc_count": 1, "rfc_numbers": [7589]}
+{"protocol_acronym": null, "protocol_name": "Network Address Encoding for Non-OSI Lower Layers", "layer": "network", "rfc_count": 1, "rfc_numbers": [1277]}
+{"protocol_acronym": null, "protocol_name": "Network Charting in X.500 Directory", "layer": "application", "rfc_count": 1, "rfc_numbers": [1609]}
+{"protocol_acronym": null, "protocol_name": "Network Debugging Protocol", "layer": "application", "rfc_count": 1, "rfc_numbers": [643]}
+{"protocol_acronym": null, "protocol_name": "Network Graphics Loader", "layer": "application", "rfc_count": 1, "rfc_numbers": [186]}
+{"protocol_acronym": null, "protocol_name": "Network Protocol", "layer": "network", "rfc_count": 1, "rfc_numbers": [36]}
+{"protocol_acronym": null, "protocol_name": "Network Services Monitoring MIB", "layer": "application", "rfc_count": 1, "rfc_numbers": [1565]}
+{"protocol_acronym": null, "protocol_name": "Next-Generation Vehicle-Initiated Emergency Calls", "layer": "application", "rfc_count": 1, "rfc_numbers": [8148]}
+{"protocol_acronym": null, "protocol_name": "NGP-0 Coordinate Conversion", "layer": "presentation", "rfc_count": 1, "rfc_numbers": [401]}
+{"protocol_acronym": null, "protocol_name": "NMDA Datastore Compare RPC", "layer": "application", "rfc_count": 1, "rfc_numbers": [9144]}
+{"protocol_acronym": null, "protocol_name": "Non-interactive Emergency Calls using SIP MESSAGE", "layer": "application", "rfc_count": 1, "rfc_numbers": [8876]}
+{"protocol_acronym": null, "protocol_name": "NSH Integrity and Encryption", "layer": "network", "rfc_count": 1, "rfc_numbers": [9145]}
+{"protocol_acronym": null, "protocol_name": "NSIS Operation over IP Tunnels", "layer": "network", "rfc_count": 1, "rfc_numbers": [5979]}
+{"protocol_acronym": null, "protocol_name": "NTP Server Option for DHCPv6", "layer": "application", "rfc_count": 1, "rfc_numbers": [5908]}
+{"protocol_acronym": null, "protocol_name": "Null Service Type", "layer": "application", "rfc_count": 1, "rfc_numbers": [2997]}
+{"protocol_acronym": null, "protocol_name": "OAuth 2.0 Authorization Server Issuer Identification", "layer": "application", "rfc_count": 1, "rfc_numbers": [9207]}
+{"protocol_acronym": null, "protocol_name": "OAuth 2.0 Device Authorization Grant", "layer": "application", "rfc_count": 1, "rfc_numbers": [8628]}
+{"protocol_acronym": null, "protocol_name": "OAuth 2.0 Dynamic Client Registration Management Protocol", "layer": "application", "rfc_count": 1, "rfc_numbers": [7592]}
+{"protocol_acronym": null, "protocol_name": "OAuth 2.0 Dynamic Client Registration Protocol", "layer": "application", "rfc_count": 1, "rfc_numbers": [7591]}
+{"protocol_acronym": null, "protocol_name": "OAuth 2.0 Protected Resource Metadata", "layer": "application", "rfc_count": 1, "rfc_numbers": [9728]}
+{"protocol_acronym": null, "protocol_name": "OAuth 2.0 Rich Authorization Requests", "layer": "application", "rfc_count": 1, "rfc_numbers": [9396]}
+{"protocol_acronym": null, "protocol_name": "OAuth 2.0 Step Up Authentication Challenge Protocol", "layer": "application", "rfc_count": 1, "rfc_numbers": [9470]}
+{"protocol_acronym": null, "protocol_name": "Oblivious Service Discovery via SVCB", "layer": "application", "rfc_count": 1, "rfc_numbers": [9540]}
+{"protocol_acronym": null, "protocol_name": "Octet Sequences for Upper-Layer OSI", "layer": "session", "rfc_count": 1, "rfc_numbers": [1698]}
+{"protocol_acronym": null, "protocol_name": "Offer/Answer Model with SDP", "layer": "application", "rfc_count": 1, "rfc_numbers": [3264]}
+{"protocol_acronym": null, "protocol_name": "Official Protocol", "layer": "network", "rfc_count": 1, "rfc_numbers": [54]}
+{"protocol_acronym": null, "protocol_name": "Ogg Encapsulation for Opus Audio Codec", "layer": "application", "rfc_count": 1, "rfc_numbers": [7845]}
+{"protocol_acronym": null, "protocol_name": "Opstat Client-Server Model for Statistics Retrieval", "layer": "application", "rfc_count": 1, "rfc_numbers": [1856]}
+{"protocol_acronym": null, "protocol_name": "Optimistic Duplicate Address Detection for IPv6", "layer": "network", "rfc_count": 1, "rfc_numbers": [4429]}
+{"protocol_acronym": null, "protocol_name": "ORIGIN HTTP/2 Frame", "layer": "application", "rfc_count": 1, "rfc_numbers": [8336]}
+{"protocol_acronym": null, "protocol_name": "OSI CLNS and LLC1 protocols on Network Systems HYPERchannel", "layer": "network", "rfc_count": 1, "rfc_numbers": [1223]}
+{"protocol_acronym": null, "protocol_name": "OSPF Application-Specific Link Attributes", "layer": "network", "rfc_count": 1, "rfc_numbers": [8920]}
+{"protocol_acronym": null, "protocol_name": "OSPF extension for S-BFD Target Discriminators", "layer": "network", "rfc_count": 1, "rfc_numbers": [7884]}
+{"protocol_acronym": null, "protocol_name": "OSPF Extensions for Inter-AS MPLS and GMPLS Traffic Engineering", "layer": "network", "rfc_count": 1, "rfc_numbers": [5392]}
+{"protocol_acronym": "", "protocol_name": "OSPF Opaque LSA", "layer": "network", "rfc_count": 1, "rfc_numbers": [5250]}
+{"protocol_acronym": null, "protocol_name": "OSPF Opaque LSA Option", "layer": "network", "rfc_count": 1, "rfc_numbers": [2370]}
+{"protocol_acronym": null, "protocol_name": "OSPF Prefix Originator Extensions", "layer": "network", "rfc_count": 1, "rfc_numbers": [9084]}
+{"protocol_acronym": null, "protocol_name": "OSPFv2 Prefix/Link Attribute Advertisement", "layer": "network", "rfc_count": 1, "rfc_numbers": [7684]}
+{"protocol_acronym": null, "protocol_name": "OSPFv3 Authentication Trailer", "layer": "network", "rfc_count": 1, "rfc_numbers": [6506]}
+{"protocol_acronym": null, "protocol_name": "Out-of-Band Setup Protocol for RPKI Production Services", "layer": "application", "rfc_count": 1, "rfc_numbers": [8183]}
+{"protocol_acronym": null, "protocol_name": "Output marking Telnet option", "layer": "application", "rfc_count": 1, "rfc_numbers": [933]}
+{"protocol_acronym": null, "protocol_name": "OWAMP and TWAMP Extensions for LAG", "layer": "application", "rfc_count": 1, "rfc_numbers": [9533]}
+{"protocol_acronym": null, "protocol_name": "P-Charge-Info Header Field", "layer": "application", "rfc_count": 1, "rfc_numbers": [8496]}
+{"protocol_acronym": null, "protocol_name": "P6R's Secure Shell Public Key Subsystem", "layer": "application", "rfc_count": 1, "rfc_numbers": [7076]}
+{"protocol_acronym": null, "protocol_name": "Packet Delivery Deadline Time in 6LoWPAN Routing Header", "layer": "network", "rfc_count": 1, "rfc_numbers": [9034]}
+{"protocol_acronym": null, "protocol_name": "Packet Loss and Delay Measurement for MPLS", "layer": "network", "rfc_count": 1, "rfc_numbers": [6374]}
+{"protocol_acronym": null, "protocol_name": "Packet Pseudowire Encapsulation over an MPLS PSN", "layer": "network", "rfc_count": 1, "rfc_numbers": [6658]}
+{"protocol_acronym": null, "protocol_name": "Partial Order Service", "layer": "transport", "rfc_count": 1, "rfc_numbers": [1693]}
+{"protocol_acronym": null, "protocol_name": "Path Steering in CCNx and NDN", "layer": "network", "rfc_count": 1, "rfc_numbers": [9531]}
+{"protocol_acronym": null, "protocol_name": "PCMAIL Mail Transport Protocol", "layer": "application", "rfc_count": 1, "rfc_numbers": [1056]}
+{"protocol_acronym": null, "protocol_name": "Per Hop Behavior Identification Codes", "layer": "network", "rfc_count": 1, "rfc_numbers": [2836]}
+{"protocol_acronym": null, "protocol_name": "Performance Measurement for Segment Routing Networks with the MPLS Data Plane", "layer": "network", "rfc_count": 1, "rfc_numbers": [9779]}
+{"protocol_acronym": null, "protocol_name": "Permission Document Format", "layer": "application", "rfc_count": 1, "rfc_numbers": [5361]}
+{"protocol_acronym": null, "protocol_name": "Physical Link Security Type of Service", "layer": "network", "rfc_count": 1, "rfc_numbers": [1455]}
+{"protocol_acronym": null, "protocol_name": "PIM over VPLS", "layer": "network", "rfc_count": 1, "rfc_numbers": [8220]}
+{"protocol_acronym": null, "protocol_name": "PKI Operational Protocols using FTP and HTTP", "layer": "application", "rfc_count": 1, "rfc_numbers": [2585]}
+{"protocol_acronym": null, "protocol_name": "Port Mapping between Unicast and Multicast RTP Sessions", "layer": "transport", "rfc_count": 1, "rfc_numbers": [6284]}
+{"protocol_acronym": null, "protocol_name": "PPP BSD Compression Protocol", "layer": "presentation", "rfc_count": 1, "rfc_numbers": [1977]}
+{"protocol_acronym": null, "protocol_name": "PPP Deflate Protocol", "layer": "presentation", "rfc_count": 1, "rfc_numbers": [1979]}
+{"protocol_acronym": null, "protocol_name": "PPP for Data Compression in DCE", "layer": "presentation", "rfc_count": 1, "rfc_numbers": [1976]}
+{"protocol_acronym": null, "protocol_name": "PPP in a Real-time Oriented HDLC-like Framing", "layer": "link", "rfc_count": 1, "rfc_numbers": [2687]}
+{"protocol_acronym": null, "protocol_name": "PPP in Frame Relay", "layer": "link", "rfc_count": 1, "rfc_numbers": [1973]}
+{"protocol_acronym": null, "protocol_name": "PPP IPCP Extensions for Name Server Addresses", "layer": "link", "rfc_count": 1, "rfc_numbers": [1877]}
+{"protocol_acronym": null, "protocol_name": "PPP Link Quality Monitoring", "layer": "link", "rfc_count": 2, "rfc_numbers": [1333, 1989]}
+{"protocol_acronym": null, "protocol_name": "PPP Over AAL5", "layer": "link", "rfc_count": 1, "rfc_numbers": [2364]}
+{"protocol_acronym": null, "protocol_name": "PPP Over FUNI", "layer": "link", "rfc_count": 1, "rfc_numbers": [2363]}
+{"protocol_acronym": null, "protocol_name": "PPP Predictor Compression Protocol", "layer": "presentation", "rfc_count": 1, "rfc_numbers": [1978]}
+{"protocol_acronym": null, "protocol_name": "PPP Stac LZS Compression Protocol", "layer": "presentation", "rfc_count": 1, "rfc_numbers": [1974]}
+{"protocol_acronym": null, "protocol_name": "Pre-Shared Key Cipher Suites for TLS with SHA-256/384 and AES GCM", "layer": "presentation", "rfc_count": 1, "rfc_numbers": [5487]}
+{"protocol_acronym": null, "protocol_name": "Preference-Based EVPN Designated Forwarder Election", "layer": "network", "rfc_count": 1, "rfc_numbers": [9785]}
+{"protocol_acronym": null, "protocol_name": "Prefix Registration for IPv6 Neighbor Discovery", "layer": "network", "rfc_count": 1, "rfc_numbers": [9926]}
+{"protocol_acronym": null, "protocol_name": "Presence Event Package for SIP", "layer": "application", "rfc_count": 1, "rfc_numbers": [3856]}
+{"protocol_acronym": null, "protocol_name": "Privacy Extensions for Stateless Address Autoconfiguration in IPv6", "layer": "network", "rfc_count": 2, "rfc_numbers": [3041, 4941]}
+{"protocol_acronym": null, "protocol_name": "Privacy Mechanism for SIP", "layer": "application", "rfc_count": 1, "rfc_numbers": [3323]}
+{"protocol_acronym": null, "protocol_name": "Privacy Pass HTTP Authentication Scheme", "layer": "application", "rfc_count": 1, "rfc_numbers": [9577]}
+{"protocol_acronym": null, "protocol_name": "Privacy Pass Issuance Protocols", "layer": "application", "rfc_count": 1, "rfc_numbers": [9578]}
+{"protocol_acronym": null, "protocol_name": "Problem Details for HTTP APIs", "layer": "application", "rfc_count": 1, "rfc_numbers": [7807]}
+{"protocol_acronym": null, "protocol_name": "Procedure call documents: Version 2", "layer": "session", "rfc_count": 1, "rfc_numbers": [674]}
+{"protocol_acronym": null, "protocol_name": "Procedures for Dynamically Signaled Hierarchical Label Switched Paths", "layer": "network", "rfc_count": 1, "rfc_numbers": [6107]}
+{"protocol_acronym": null, "protocol_name": "Protocol Experiment", "layer": "transport", "rfc_count": 1, "rfc_numbers": [700]}
+{"protocol_acronym": null, "protocol_name": "Protocol for Providing the Connectionless Mode Network Services", "layer": "network", "rfc_count": 1, "rfc_numbers": [926]}
+{"protocol_acronym": null, "protocol_name": "Proxying IP in HTTP", "layer": "network", "rfc_count": 1, "rfc_numbers": [9484]}
+{"protocol_acronym": null, "protocol_name": "Pseudowire Control-Word Negotiation Mechanism Update", "layer": "network", "rfc_count": 1, "rfc_numbers": [6723]}
+{"protocol_acronym": null, "protocol_name": "Pseudowire Redundancy on the Switching Provider Edge", "layer": "network", "rfc_count": 1, "rfc_numbers": [7795]}
+{"protocol_acronym": null, "protocol_name": "Push Notification with SIP", "layer": "application", "rfc_count": 1, "rfc_numbers": [8599]}
+{"protocol_acronym": null, "protocol_name": "Quick Crash Detection Method for IKE", "layer": "network", "rfc_count": 1, "rfc_numbers": [6290]}
+{"protocol_acronym": null, "protocol_name": "Quote of the Day Protocol", "layer": "application", "rfc_count": 1, "rfc_numbers": [865]}
+{"protocol_acronym": null, "protocol_name": "RADIUS Extension for Digest Authentication", "layer": "application", "rfc_count": 2, "rfc_numbers": [4590, 5090]}
+{"protocol_acronym": null, "protocol_name": "RADIUS Option for DHCPv6 Relay Agent", "layer": "application", "rfc_count": 1, "rfc_numbers": [7037]}
+{"protocol_acronym": null, "protocol_name": "RDAP Reverse Search", "layer": "application", "rfc_count": 1, "rfc_numbers": [9536]}
+{"protocol_acronym": null, "protocol_name": "Reaction", "layer": "application", "rfc_count": 1, "rfc_numbers": [9078]}
+{"protocol_acronym": null, "protocol_name": "Realm-Based Redirection in Diameter", "layer": "application", "rfc_count": 1, "rfc_numbers": [7075]}
+{"protocol_acronym": null, "protocol_name": "Reconnection Protocol", "layer": "session", "rfc_count": 1, "rfc_numbers": [426]}
+{"protocol_acronym": null, "protocol_name": "Redacted Fields in RDAP Response", "layer": "application", "rfc_count": 1, "rfc_numbers": [9537]}
+{"protocol_acronym": null, "protocol_name": "Referring to Multiple Resources in SIP", "layer": "application", "rfc_count": 1, "rfc_numbers": [5368]}
+{"protocol_acronym": null, "protocol_name": "Related Certificates", "layer": "application", "rfc_count": 1, "rfc_numbers": [9763]}
+{"protocol_acronym": null, "protocol_name": "Relative Location Representation", "layer": "application", "rfc_count": 1, "rfc_numbers": [7035]}
+{"protocol_acronym": null, "protocol_name": "Reliable Communication Protocol", "layer": "transport", "rfc_count": 1, "rfc_numbers": [203]}
+{"protocol_acronym": null, "protocol_name": "Reliable link layer protocol", "layer": "link", "rfc_count": 1, "rfc_numbers": [935]}
+{"protocol_acronym": null, "protocol_name": "Remote Controlled Transmission and Echoing Telnet Option", "layer": "application", "rfc_count": 1, "rfc_numbers": [560]}
+{"protocol_acronym": null, "protocol_name": "Remote Mail Checking Protocol", "layer": "application", "rfc_count": 1, "rfc_numbers": [1339]}
+{"protocol_acronym": null, "protocol_name": "Remote Printing using Internet Mail", "layer": "application", "rfc_count": 1, "rfc_numbers": [1486]}
+{"protocol_acronym": null, "protocol_name": "Remote Printing via Internet Mail", "layer": "application", "rfc_count": 1, "rfc_numbers": [1528]}
+{"protocol_acronym": null, "protocol_name": "Remote User Telnet service", "layer": "application", "rfc_count": 1, "rfc_numbers": [818]}
+{"protocol_acronym": null, "protocol_name": "Reoptimization of MPLS TE Loosely Routed LSP", "layer": "network", "rfc_count": 1, "rfc_numbers": [4736]}
+{"protocol_acronym": null, "protocol_name": "Representation of Non-ASCII Text in Internet Message Headers", "layer": "application", "rfc_count": 1, "rfc_numbers": [1342]}
+{"protocol_acronym": null, "protocol_name": "Representation of O/R Address hierarchy in X.500 DIT", "layer": "application", "rfc_count": 1, "rfc_numbers": [1836]}
+{"protocol_acronym": null, "protocol_name": "Representing Tables and Subtrees in X.500 Directory", "layer": "application", "rfc_count": 1, "rfc_numbers": [1837]}
+{"protocol_acronym": null, "protocol_name": "Reputation Query Protocol", "layer": "application", "rfc_count": 1, "rfc_numbers": [7072]}
+{"protocol_acronym": null, "protocol_name": "Reserved IPv6 Subnet Anycast Addresses", "layer": "network", "rfc_count": 1, "rfc_numbers": [2526]}
+{"protocol_acronym": null, "protocol_name": "Return Path Specified LSP Ping", "layer": "network", "rfc_count": 1, "rfc_numbers": [7110]}
+{"protocol_acronym": null, "protocol_name": "Reverse Tunneling for Mobile IP", "layer": "network", "rfc_count": 1, "rfc_numbers": [3024]}
+{"protocol_acronym": null, "protocol_name": "RIPv2 Cryptographic Authentication", "layer": "network", "rfc_count": 1, "rfc_numbers": [4822]}
+{"protocol_acronym": null, "protocol_name": "Route Refresh Capability for BGP-4", "layer": "network", "rfc_count": 1, "rfc_numbers": [2918]}
+{"protocol_acronym": null, "protocol_name": "Router Solicitation Resiliency", "layer": "network", "rfc_count": 1, "rfc_numbers": [7559]}
+{"protocol_acronym": null, "protocol_name": "Routing Coordination for X.400 MHS Services Within a Multi Protocol / Multi Network Environment Table Format V3 for Static Routing", "layer": "application", "rfc_count": 1, "rfc_numbers": [1465]}
+{"protocol_acronym": null, "protocol_name": "Routing for IPv4-Embedded IPv6 Packets", "layer": "network", "rfc_count": 1, "rfc_numbers": [6992]}
+{"protocol_acronym": null, "protocol_name": "RSA Blind Signatures", "layer": "application", "rfc_count": 1, "rfc_numbers": [9474]}
+{"protocol_acronym": null, "protocol_name": "RSA Cryptography for X.509 PKI", "layer": "application", "rfc_count": 1, "rfc_numbers": [4055]}
+{"protocol_acronym": null, "protocol_name": "RSA Key Exchange for SSH", "layer": "transport", "rfc_count": 1, "rfc_numbers": [4432]}
+{"protocol_acronym": null, "protocol_name": "RSA/MD5 KEYs and SIGs in the Domain Name System", "layer": "application", "rfc_count": 1, "rfc_numbers": [2537]}
+{"protocol_acronym": null, "protocol_name": "RSASSA-PSS in CMS", "layer": "application", "rfc_count": 1, "rfc_numbers": [4056]}
+{"protocol_acronym": null, "protocol_name": "RSVP Cryptographic Authentication", "layer": "network", "rfc_count": 2, "rfc_numbers": [2747, 3097]}
+{"protocol_acronym": null, "protocol_name": "RSVP Diagnostic Messages", "layer": "network", "rfc_count": 1, "rfc_numbers": [2745]}
+{"protocol_acronym": null, "protocol_name": "RSVP Extensions for Policy Control", "layer": "network", "rfc_count": 1, "rfc_numbers": [2750]}
+{"protocol_acronym": null, "protocol_name": "RSVP Refresh Overhead Reduction Extensions", "layer": "network", "rfc_count": 1, "rfc_numbers": [2961]}
+{"protocol_acronym": null, "protocol_name": "RSVP-TE Signaling Extensions for Flexi-Grid DWDM", "layer": "network", "rfc_count": 1, "rfc_numbers": [7792]}
+{"protocol_acronym": null, "protocol_name": "RTCP Extended Report Block for Loss Concealment Metrics", "layer": "application", "rfc_count": 1, "rfc_numbers": [7867]}
+{"protocol_acronym": null, "protocol_name": "RTCP Extended Report Block for Packet Delay Variation Metric Reporting", "layer": "application", "rfc_count": 1, "rfc_numbers": [6798]}
+{"protocol_acronym": null, "protocol_name": "RTCP XR Block for Burst/Gap Loss Metric Reporting", "layer": "application", "rfc_count": 1, "rfc_numbers": [6958]}
+{"protocol_acronym": null, "protocol_name": "RTP over DCCP", "layer": "transport", "rfc_count": 1, "rfc_numbers": [5762]}
+{"protocol_acronym": null, "protocol_name": "RTP Payload for DTMF Digits, Telephony Tones and Telephony Signals", "layer": "application", "rfc_count": 1, "rfc_numbers": [2833]}
+{"protocol_acronym": null, "protocol_name": "RTP Payload for DTMF Digits, Telephony Tones, and Telephony Signals", "layer": "application", "rfc_count": 1, "rfc_numbers": [4733]}
+{"protocol_acronym": null, "protocol_name": "RTP Payload for SMPTE ST 291-1 Ancillary Data", "layer": "application", "rfc_count": 1, "rfc_numbers": [8331]}
+{"protocol_acronym": null, "protocol_name": "RTP Payload for Text Conversation", "layer": "application", "rfc_count": 2, "rfc_numbers": [2793, 4103]}
+{"protocol_acronym": null, "protocol_name": "RTP Payload Format and File Storage Format for AMR and AMR-WB", "layer": "application", "rfc_count": 1, "rfc_numbers": [4867]}
+{"protocol_acronym": null, "protocol_name": "RTP Payload Format for 12-bit DAT Audio and 20- and 24-bit Linear Sampled Audio", "layer": "application", "rfc_count": 1, "rfc_numbers": [3190]}
+{"protocol_acronym": null, "protocol_name": "RTP Payload Format for 3GPP Timed Text", "layer": "application", "rfc_count": 1, "rfc_numbers": [4396]}
+{"protocol_acronym": null, "protocol_name": "RTP Payload Format for BT.656 Video Encoding", "layer": "application", "rfc_count": 1, "rfc_numbers": [2431]}
+{"protocol_acronym": null, "protocol_name": "RTP Payload Format for CellB Video Encoding", "layer": "application", "rfc_count": 1, "rfc_numbers": [2029]}
+{"protocol_acronym": null, "protocol_name": "RTP Payload Format for ETSI ES 201 108 DSR", "layer": "application", "rfc_count": 1, "rfc_numbers": [3557]}
+{"protocol_acronym": null, "protocol_name": "RTP Payload Format for EVRC and SMV", "layer": "application", "rfc_count": 1, "rfc_numbers": [3558]}
+{"protocol_acronym": null, "protocol_name": "RTP Payload Format for G.711.1", "layer": "application", "rfc_count": 1, "rfc_numbers": [5391]}
+{"protocol_acronym": null, "protocol_name": "RTP Payload Format for Generic Forward Error Correction", "layer": "application", "rfc_count": 1, "rfc_numbers": [2733]}
+{"protocol_acronym": null, "protocol_name": "RTP Payload Format for H.261 Video Streams", "layer": "application", "rfc_count": 1, "rfc_numbers": [4587]}
+{"protocol_acronym": null, "protocol_name": "RTP Payload Format for H.263 Video Streams", "layer": "application", "rfc_count": 1, "rfc_numbers": [2190]}
+{"protocol_acronym": null, "protocol_name": "RTP Payload Format for H.263+ Video", "layer": "application", "rfc_count": 1, "rfc_numbers": [2429]}
+{"protocol_acronym": null, "protocol_name": "RTP Payload Format for iLBC", "layer": "application", "rfc_count": 1, "rfc_numbers": [3952]}
+{"protocol_acronym": null, "protocol_name": "RTP Payload Format for JPEG XS", "layer": "application", "rfc_count": 1, "rfc_numbers": [9134]}
+{"protocol_acronym": null, "protocol_name": "RTP Payload Format for MIDI", "layer": "application", "rfc_count": 1, "rfc_numbers": [4695]}
+{"protocol_acronym": null, "protocol_name": "RTP Payload Format for MP3 Audio", "layer": "application", "rfc_count": 1, "rfc_numbers": [5219]}
+{"protocol_acronym": null, "protocol_name": "RTP Payload Format for MPEG-4 Audio/Visual Streams", "layer": "application", "rfc_count": 2, "rfc_numbers": [3016, 6416]}
+{"protocol_acronym": null, "protocol_name": "RTP Payload Format for MPEG-4 Elementary Streams", "layer": "application", "rfc_count": 1, "rfc_numbers": [3640]}
+{"protocol_acronym": null, "protocol_name": "RTP Payload Format for Opus", "layer": "application", "rfc_count": 1, "rfc_numbers": [7587]}
+{"protocol_acronym": null, "protocol_name": "RTP Payload Format for Uncompressed Video: Additional Colour Sampling Modes", "layer": "application", "rfc_count": 1, "rfc_numbers": [4421]}
+{"protocol_acronym": null, "protocol_name": "RTP Payload Format for VC-2 HQ Profile", "layer": "application", "rfc_count": 1, "rfc_numbers": [8450]}
+{"protocol_acronym": null, "protocol_name": "RTP Payload Format for Video Codec 1 (VC-1)", "layer": "application", "rfc_count": 1, "rfc_numbers": [4425]}
+{"protocol_acronym": null, "protocol_name": "RTP Payload Format for VMR-WB Extension Audio Codec", "layer": "application", "rfc_count": 1, "rfc_numbers": [4424]}
+{"protocol_acronym": null, "protocol_name": "RTP Payload Format for Vorbis Encoded Audio", "layer": "application", "rfc_count": 1, "rfc_numbers": [5215]}
+{"protocol_acronym": null, "protocol_name": "RTP Payload Format Restrictions", "layer": "application", "rfc_count": 1, "rfc_numbers": [8851]}
+{"protocol_acronym": null, "protocol_name": "RTP Payload Formats for DSR", "layer": "application", "rfc_count": 1, "rfc_numbers": [4060]}
+{"protocol_acronym": null, "protocol_name": "RTP Profile for Audio and Video Conferences", "layer": "application", "rfc_count": 1, "rfc_numbers": [1890]}
+{"protocol_acronym": null, "protocol_name": "RTP Retransmission Payload Format", "layer": "application", "rfc_count": 1, "rfc_numbers": [4588]}
+{"protocol_acronym": null, "protocol_name": "RTP Stream Identifier SDES Items", "layer": "application", "rfc_count": 1, "rfc_numbers": [8852]}
+{"protocol_acronym": null, "protocol_name": "RTP Stream Pause and Resume", "layer": "application", "rfc_count": 1, "rfc_numbers": [7728]}
+{"protocol_acronym": null, "protocol_name": "Rules for Designing Protocols Using RFC 5444 Format", "layer": "network", "rfc_count": 1, "rfc_numbers": [8245]}
+{"protocol_acronym": null, "protocol_name": "Safe Response Header Field", "layer": "application", "rfc_count": 1, "rfc_numbers": [2310]}
+{"protocol_acronym": null, "protocol_name": "SAML 2.0 Profile for OAuth 2.0", "layer": "application", "rfc_count": 1, "rfc_numbers": [7522]}
+{"protocol_acronym": null, "protocol_name": "Sampling of the Group Membership in RTP", "layer": "application", "rfc_count": 1, "rfc_numbers": [2762]}
+{"protocol_acronym": null, "protocol_name": "Scalable Multicast Key Distribution", "layer": "application", "rfc_count": 1, "rfc_numbers": [1949]}
+{"protocol_acronym": null, "protocol_name": "Schema Publishing in X.500 Directory", "layer": "application", "rfc_count": 1, "rfc_numbers": [1804]}
+{"protocol_acronym": null, "protocol_name": "SDP Offer/Answer Mechanism for File Transfer", "layer": "application", "rfc_count": 1, "rfc_numbers": [5547]}
+{"protocol_acronym": null, "protocol_name": "secret-token URI Scheme", "layer": "application", "rfc_count": 1, "rfc_numbers": [8959]}
+{"protocol_acronym": null, "protocol_name": "Secure Telephone Identity Credentials: Certificates", "layer": "application", "rfc_count": 1, "rfc_numbers": [8226]}
+{"protocol_acronym": null, "protocol_name": "SecurID SASL Mechanism", "layer": "application", "rfc_count": 1, "rfc_numbers": [2808]}
+{"protocol_acronym": null, "protocol_name": "Securing X.400 Content with S/MIME", "layer": "application", "rfc_count": 1, "rfc_numbers": [3854]}
+{"protocol_acronym": null, "protocol_name": "Security Flag in the IPv4 Header", "layer": "network", "rfc_count": 1, "rfc_numbers": [3514]}
+{"protocol_acronym": null, "protocol_name": "Security Protocols for SNMPv2", "layer": "application", "rfc_count": 1, "rfc_numbers": [1446]}
+{"protocol_acronym": null, "protocol_name": "Segmented Pseudowire", "layer": "network", "rfc_count": 1, "rfc_numbers": [6073]}
+{"protocol_acronym": null, "protocol_name": "Service Discovery Usage for RELOAD", "layer": "application", "rfc_count": 1, "rfc_numbers": [7374]}
+{"protocol_acronym": null, "protocol_name": "Session Authorization Policy Element", "layer": "session", "rfc_count": 1, "rfc_numbers": [3520]}
+{"protocol_acronym": null, "protocol_name": "Session Description Protocol Elements for the FEC Framework", "layer": "application", "rfc_count": 1, "rfc_numbers": [6364]}
+{"protocol_acronym": null, "protocol_name": "Session Description Protocol Security Descriptions", "layer": "session", "rfc_count": 1, "rfc_numbers": [4568]}
+{"protocol_acronym": null, "protocol_name": "Session Description Protocol Source Filters", "layer": "session", "rfc_count": 1, "rfc_numbers": [4570]}
+{"protocol_acronym": null, "protocol_name": "Session Initiation Protocol User Agent Profile Delivery Framework", "layer": "application", "rfc_count": 1, "rfc_numbers": [6080]}
+{"protocol_acronym": null, "protocol_name": "SGML Media Types", "layer": "application", "rfc_count": 1, "rfc_numbers": [1874]}
+{"protocol_acronym": null, "protocol_name": "Shared Brotli Compressed Data Format", "layer": "presentation", "rfc_count": 1, "rfc_numbers": [9841]}
+{"protocol_acronym": null, "protocol_name": "Sieve Email Filtering MIME Extensions", "layer": "application", "rfc_count": 1, "rfc_numbers": [5703]}
+{"protocol_acronym": null, "protocol_name": "Sieve Extension: Copying Without Side Effects", "layer": "application", "rfc_count": 1, "rfc_numbers": [3894]}
+{"protocol_acronym": null, "protocol_name": "Sieve Mail-Filtering Language Extensions", "layer": "application", "rfc_count": 1, "rfc_numbers": [5490]}
+{"protocol_acronym": null, "protocol_name": "Signaled Preemption Priority Policy Element", "layer": "network", "rfc_count": 2, "rfc_numbers": [2751, 3181]}
+{"protocol_acronym": null, "protocol_name": "Signaling Trust Anchor Knowledge in DNSSEC", "layer": "application", "rfc_count": 1, "rfc_numbers": [8145]}
+{"protocol_acronym": null, "protocol_name": "Signed Syslog", "layer": "application", "rfc_count": 1, "rfc_numbers": [5848]}
+{"protocol_acronym": null, "protocol_name": "Simple Authentication Schemes for ALC and NORM", "layer": "application", "rfc_count": 1, "rfc_numbers": [6584]}
+{"protocol_acronym": null, "protocol_name": "Simple Hit-Metering and Usage-Limiting for HTTP", "layer": "application", "rfc_count": 1, "rfc_numbers": [2227]}
+{"protocol_acronym": null, "protocol_name": "Simple Mail Transfer Protocol Extension for Message Transfer Priorities", "layer": "application", "rfc_count": 1, "rfc_numbers": [6710]}
+{"protocol_acronym": null, "protocol_name": "Simple Mode of Facsimile Using Internet Mail", "layer": "application", "rfc_count": 2, "rfc_numbers": [2305, 3965]}
+{"protocol_acronym": null, "protocol_name": "Simple Network Paging Protocol - Version 3 -Two-Way Enhanced", "layer": "application", "rfc_count": 1, "rfc_numbers": [1861]}
+{"protocol_acronym": null, "protocol_name": "Simple Provisioning of Public Names for Residential Networks", "layer": "application", "rfc_count": 1, "rfc_numbers": [9526]}
+{"protocol_acronym": null, "protocol_name": "Simple Reed-Solomon Forward Error Correction (FEC) Scheme for FECFRAME", "layer": "application", "rfc_count": 1, "rfc_numbers": [6865]}
+{"protocol_acronym": null, "protocol_name": "Simplified POP and IMAP Downgrading for Internationalized Email", "layer": "application", "rfc_count": 1, "rfc_numbers": [6858]}
+{"protocol_acronym": null, "protocol_name": "Simulcast in SDP and RTP", "layer": "application", "rfc_count": 1, "rfc_numbers": [8853]}
+{"protocol_acronym": null, "protocol_name": "SIP Call Control - Conferencing for User Agents", "layer": "application", "rfc_count": 1, "rfc_numbers": [4579]}
+{"protocol_acronym": null, "protocol_name": "SIP Event Notification Extension for Resource Lists", "layer": "application", "rfc_count": 1, "rfc_numbers": [4662]}
+{"protocol_acronym": null, "protocol_name": "SIP Event Package for HTTP Resource Changes", "layer": "application", "rfc_count": 1, "rfc_numbers": [5989]}
+{"protocol_acronym": null, "protocol_name": "SIP Interface to VoiceXML Media Services", "layer": "application", "rfc_count": 1, "rfc_numbers": [5552]}
+{"protocol_acronym": null, "protocol_name": "SIP Locating SIP Servers", "layer": "application", "rfc_count": 1, "rfc_numbers": [3263]}
+{"protocol_acronym": null, "protocol_name": "SIP Pending Additions Event Package", "layer": "application", "rfc_count": 1, "rfc_numbers": [5362]}
+{"protocol_acronym": null, "protocol_name": "SIP Referred-By Mechanism", "layer": "application", "rfc_count": 1, "rfc_numbers": [3892]}
+{"protocol_acronym": null, "protocol_name": "SIP Replaces Header", "layer": "application", "rfc_count": 1, "rfc_numbers": [3891]}
+{"protocol_acronym": null, "protocol_name": "SIP-XMPP Presence Mapping", "layer": "application", "rfc_count": 2, "rfc_numbers": [7248, 8048]}
+{"protocol_acronym": null, "protocol_name": "SMIng Mappings to SNMP", "layer": "application", "rfc_count": 1, "rfc_numbers": [3781]}
+{"protocol_acronym": null, "protocol_name": "SMTP Extension for Internationalized Email Addresses", "layer": "application", "rfc_count": 1, "rfc_numbers": [5336]}
+{"protocol_acronym": null, "protocol_name": "SMTP on X.25", "layer": "application", "rfc_count": 1, "rfc_numbers": [1090]}
+{"protocol_acronym": null, "protocol_name": "SMTP Service Extension for Authentication", "layer": "application", "rfc_count": 1, "rfc_numbers": [4954]}
+{"protocol_acronym": null, "protocol_name": "SMTP Service Extension for Command Pipelining", "layer": "application", "rfc_count": 2, "rfc_numbers": [1854, 2920]}
+{"protocol_acronym": null, "protocol_name": "SMTP Service Extension for Delivery Status Notifications", "layer": "application", "rfc_count": 1, "rfc_numbers": [1891]}
+{"protocol_acronym": null, "protocol_name": "SMTP Service Extension for Message Tracking", "layer": "application", "rfc_count": 1, "rfc_numbers": [3885]}
+{"protocol_acronym": null, "protocol_name": "SMTP Service Extensions for Large and Binary MIME Messages", "layer": "application", "rfc_count": 1, "rfc_numbers": [3030]}
+{"protocol_acronym": null, "protocol_name": "SMTP Submission Service Extension for Future Message Release", "layer": "application", "rfc_count": 1, "rfc_numbers": [4865]}
+{"protocol_acronym": null, "protocol_name": "SNMP Context EngineID Discovery", "layer": "application", "rfc_count": 1, "rfc_numbers": [5343]}
+{"protocol_acronym": null, "protocol_name": "SNMP MIB extension for Multiprotocol Interconnect over X.25", "layer": "application", "rfc_count": 1, "rfc_numbers": [1461]}
+{"protocol_acronym": null, "protocol_name": "SNMP over Ethernet", "layer": "application", "rfc_count": 1, "rfc_numbers": [1089]}
+{"protocol_acronym": null, "protocol_name": "SOAP Binding to BEEP", "layer": "application", "rfc_count": 1, "rfc_numbers": [4227]}
+{"protocol_acronym": null, "protocol_name": "Socket Definition", "layer": "transport", "rfc_count": 1, "rfc_numbers": [147]}
+{"protocol_acronym": null, "protocol_name": "SOCKS-based IPv6/IPv4 Gateway Mechanism", "layer": "network", "rfc_count": 1, "rfc_numbers": [3089]}
+{"protocol_acronym": null, "protocol_name": "Softwire Hub and Spoke Deployment Framework with L2TPv2", "layer": "network", "rfc_count": 1, "rfc_numbers": [5571]}
+{"protocol_acronym": null, "protocol_name": "Split DNS Configuration for IKEv2", "layer": "network", "rfc_count": 1, "rfc_numbers": [8598]}
+{"protocol_acronym": null, "protocol_name": "SSH Transport Layer Encryption Modes", "layer": "transport", "rfc_count": 1, "rfc_numbers": [4344]}
+{"protocol_acronym": null, "protocol_name": "STAMP Extensions for LAG", "layer": "application", "rfc_count": 1, "rfc_numbers": [9534]}
+{"protocol_acronym": null, "protocol_name": "Standard for the Format of ARPA Internet Text Messages", "layer": "application", "rfc_count": 1, "rfc_numbers": [822]}
+{"protocol_acronym": null, "protocol_name": "Standard for the Format of ARPA Network Text Messages", "layer": "application", "rfc_count": 1, "rfc_numbers": [733]}
+{"protocol_acronym": null, "protocol_name": "Stateless Source Address Mapping for ICMPv6 Packets", "layer": "network", "rfc_count": 1, "rfc_numbers": [6791]}
+{"protocol_acronym": null, "protocol_name": "Statistics server", "layer": "application", "rfc_count": 1, "rfc_numbers": [996]}
+{"protocol_acronym": null, "protocol_name": "Storage of Diffie-Hellman Keys in the Domain Name System", "layer": "application", "rfc_count": 1, "rfc_numbers": [2539]}
+{"protocol_acronym": null, "protocol_name": "Storing Certificates in the Domain Name System", "layer": "application", "rfc_count": 1, "rfc_numbers": [2538]}
+{"protocol_acronym": null, "protocol_name": "String Encoding of Presentation Address", "layer": "presentation", "rfc_count": 1, "rfc_numbers": [1278]}
+{"protocol_acronym": null, "protocol_name": "String Representation of Distinguished Names", "layer": "application", "rfc_count": 1, "rfc_numbers": [1485]}
+{"protocol_acronym": null, "protocol_name": "Structured Field Values for HTTP", "layer": "application", "rfc_count": 1, "rfc_numbers": [8941]}
+{"protocol_acronym": null, "protocol_name": "Structured Format for Transmission of Multi-Media Documents", "layer": "application", "rfc_count": 1, "rfc_numbers": [767]}
+{"protocol_acronym": null, "protocol_name": "Subnetting Procedure", "layer": "network", "rfc_count": 1, "rfc_numbers": [950]}
+{"protocol_acronym": null, "protocol_name": "Subscriptions to Request-Contained Resource Lists", "layer": "application", "rfc_count": 1, "rfc_numbers": [5367]}
+{"protocol_acronym": null, "protocol_name": "Suite B Certificate and CRL Profile", "layer": "application", "rfc_count": 1, "rfc_numbers": [5759]}
+{"protocol_acronym": null, "protocol_name": "Sunset HTTP Header Field", "layer": "application", "rfc_count": 1, "rfc_numbers": [8594]}
+{"protocol_acronym": null, "protocol_name": "SUPDUP Graphics Extension", "layer": "application", "rfc_count": 1, "rfc_numbers": [746]}
+{"protocol_acronym": null, "protocol_name": "SUPDUP Protocol Extensions", "layer": "application", "rfc_count": 1, "rfc_numbers": [747]}
+{"protocol_acronym": null, "protocol_name": "Suppression of SIP REFER Method Implicit Subscription", "layer": "application", "rfc_count": 1, "rfc_numbers": [4488]}
+{"protocol_acronym": null, "protocol_name": "Syslog over TCP", "layer": "application", "rfc_count": 1, "rfc_numbers": [6587]}
+{"protocol_acronym": null, "protocol_name": "TCP alternate checksum options", "layer": "transport", "rfc_count": 2, "rfc_numbers": [1145, 1146]}
+{"protocol_acronym": null, "protocol_name": "TCP and UDP over IPv6 Jumbograms", "layer": "transport", "rfc_count": 1, "rfc_numbers": [2147]}
+{"protocol_acronym": null, "protocol_name": "TCP big window and NAK options", "layer": "transport", "rfc_count": 1, "rfc_numbers": [1106]}
+{"protocol_acronym": null, "protocol_name": "TCP Congestion Window Validation", "layer": "transport", "rfc_count": 1, "rfc_numbers": [2861]}
+{"protocol_acronym": null, "protocol_name": "TCP Encapsulation of IKE and IPsec", "layer": "transport", "rfc_count": 1, "rfc_numbers": [8229]}
+{"protocol_acronym": null, "protocol_name": "TCP Extensions for Long-Delay Paths", "layer": "transport", "rfc_count": 1, "rfc_numbers": [1072]}
+{"protocol_acronym": null, "protocol_name": "TCP Initial Window Increase", "layer": "transport", "rfc_count": 1, "rfc_numbers": [2414]}
+{"protocol_acronym": null, "protocol_name": "TCP Option for Host Identification", "layer": "transport", "rfc_count": 1, "rfc_numbers": [7974]}
+{"protocol_acronym": null, "protocol_name": "Techniques for managing asynchronously generated alerts", "layer": "application", "rfc_count": 1, "rfc_numbers": [1224]}
+{"protocol_acronym": null, "protocol_name": "tel URI Number Portability Parameters", "layer": "application", "rfc_count": 1, "rfc_numbers": [4694]}
+{"protocol_acronym": null, "protocol_name": "tel, fax, modem URL schemes", "layer": "application", "rfc_count": 1, "rfc_numbers": [2806]}
+{"protocol_acronym": "", "protocol_name": "Telephony Events RTP Payload", "layer": "application", "rfc_count": 1, "rfc_numbers": [5244]}
+{"protocol_acronym": null, "protocol_name": "Telnet 3270 Regime Option", "layer": "application", "rfc_count": 1, "rfc_numbers": [1041]}
+{"protocol_acronym": null, "protocol_name": "Telnet Authentication Option", "layer": "application", "rfc_count": 2, "rfc_numbers": [1409, 1416]}
+{"protocol_acronym": null, "protocol_name": "TELNET Authentication Using DSA", "layer": "application", "rfc_count": 1, "rfc_numbers": [2943]}
+{"protocol_acronym": null, "protocol_name": "TELNET Authentication Using KEA and SKIPJACK", "layer": "application", "rfc_count": 1, "rfc_numbers": [2951]}
+{"protocol_acronym": null, "protocol_name": "Telnet Authentication: Kerberos Version 4", "layer": "application", "rfc_count": 1, "rfc_numbers": [1411]}
+{"protocol_acronym": null, "protocol_name": "Telnet Authentication: Kerberos Version 5", "layer": "application", "rfc_count": 1, "rfc_numbers": [2942]}
+{"protocol_acronym": null, "protocol_name": "Telnet Authentication: SRP", "layer": "application", "rfc_count": 1, "rfc_numbers": [2944]}
+{"protocol_acronym": null, "protocol_name": "Telnet Binary Transmission", "layer": "application", "rfc_count": 1, "rfc_numbers": [856]}
+{"protocol_acronym": null, "protocol_name": "TELNET CHARSET Option", "layer": "application", "rfc_count": 1, "rfc_numbers": [2066]}
+{"protocol_acronym": null, "protocol_name": "Telnet Data Encryption Option", "layer": "application", "rfc_count": 1, "rfc_numbers": [2946]}
+{"protocol_acronym": null, "protocol_name": "Telnet Echo Option", "layer": "application", "rfc_count": 1, "rfc_numbers": [857]}
+{"protocol_acronym": null, "protocol_name": "Telnet Encryption: CAST-128 64 bit Cipher Feedback", "layer": "application", "rfc_count": 1, "rfc_numbers": [2950]}
+{"protocol_acronym": null, "protocol_name": "Telnet Encryption: CAST-128 64 bit Output Feedback", "layer": "application", "rfc_count": 1, "rfc_numbers": [2949]}
+{"protocol_acronym": null, "protocol_name": "Telnet Encryption: DES 64 bit Cipher Feedback", "layer": "application", "rfc_count": 1, "rfc_numbers": [2952]}
+{"protocol_acronym": null, "protocol_name": "Telnet Encryption: DES 64 bit Output Feedback", "layer": "application", "rfc_count": 1, "rfc_numbers": [2953]}
+{"protocol_acronym": null, "protocol_name": "Telnet Encryption: DES3 64 bit Cipher Feedback", "layer": "application", "rfc_count": 1, "rfc_numbers": [2947]}
+{"protocol_acronym": null, "protocol_name": "Telnet Encryption: DES3 64 bit Output Feedback", "layer": "application", "rfc_count": 1, "rfc_numbers": [2948]}
+{"protocol_acronym": null, "protocol_name": "Telnet End of Record Option", "layer": "application", "rfc_count": 1, "rfc_numbers": [885]}
+{"protocol_acronym": null, "protocol_name": "Telnet Environment Option", "layer": "application", "rfc_count": 2, "rfc_numbers": [1408, 1572]}
+{"protocol_acronym": null, "protocol_name": "Telnet Extended ASCII Option", "layer": "application", "rfc_count": 1, "rfc_numbers": [698]}
+{"protocol_acronym": null, "protocol_name": "Telnet Extended Options: List Option", "layer": "application", "rfc_count": 1, "rfc_numbers": [861]}
+{"protocol_acronym": null, "protocol_name": "TELNET KERMIT OPTION", "layer": "application", "rfc_count": 1, "rfc_numbers": [2840]}
+{"protocol_acronym": null, "protocol_name": "Telnet Linemode Option", "layer": "application", "rfc_count": 1, "rfc_numbers": [1116]}
+{"protocol_acronym": null, "protocol_name": "Telnet Option Specifications", "layer": "application", "rfc_count": 1, "rfc_numbers": [855]}
+{"protocol_acronym": null, "protocol_name": "Telnet Randomly-Lose Option", "layer": "application", "rfc_count": 1, "rfc_numbers": [748]}
+{"protocol_acronym": null, "protocol_name": "Telnet Remote Flow Control Option", "layer": "application", "rfc_count": 2, "rfc_numbers": [1080, 1372]}
+{"protocol_acronym": null, "protocol_name": "Telnet Send-Location Option", "layer": "application", "rfc_count": 1, "rfc_numbers": [779]}
+{"protocol_acronym": null, "protocol_name": "Telnet Status Option", "layer": "application", "rfc_count": 2, "rfc_numbers": [651, 859]}
+{"protocol_acronym": null, "protocol_name": "Telnet subliminal-message option", "layer": "application", "rfc_count": 1, "rfc_numbers": [1097]}
+{"protocol_acronym": null, "protocol_name": "Telnet SUPDUP-Output Option", "layer": "application", "rfc_count": 1, "rfc_numbers": [749]}
+{"protocol_acronym": null, "protocol_name": "Telnet Suppress Go Ahead Option", "layer": "application", "rfc_count": 1, "rfc_numbers": [858]}
+{"protocol_acronym": null, "protocol_name": "Telnet Terminal Location Number Option", "layer": "application", "rfc_count": 1, "rfc_numbers": [946]}
+{"protocol_acronym": null, "protocol_name": "Telnet terminal speed option", "layer": "application", "rfc_count": 1, "rfc_numbers": [1079]}
+{"protocol_acronym": null, "protocol_name": "Telnet Terminal Type Option", "layer": "application", "rfc_count": 2, "rfc_numbers": [884, 930]}
+{"protocol_acronym": null, "protocol_name": "Telnet terminal-type option", "layer": "application", "rfc_count": 1, "rfc_numbers": [1091]}
+{"protocol_acronym": null, "protocol_name": "Telnet Timing Mark Option", "layer": "application", "rfc_count": 1, "rfc_numbers": [860]}
+{"protocol_acronym": null, "protocol_name": "Telnet Window Size Option", "layer": "application", "rfc_count": 1, "rfc_numbers": [1073]}
+{"protocol_acronym": null, "protocol_name": "Telnet X display location option", "layer": "application", "rfc_count": 1, "rfc_numbers": [1096]}
+{"protocol_acronym": null, "protocol_name": "Telnet X.3 PAD Option", "layer": "application", "rfc_count": 1, "rfc_numbers": [1053]}
+{"protocol_acronym": null, "protocol_name": "Teredo Extensions", "layer": "network", "rfc_count": 1, "rfc_numbers": [6081]}
+{"protocol_acronym": null, "protocol_name": "Tetrys", "layer": "network", "rfc_count": 1, "rfc_numbers": [9407]}
+{"protocol_acronym": null, "protocol_name": "text/enriched MIME Content-type", "layer": "application", "rfc_count": 2, "rfc_numbers": [1523, 1563]}
+{"protocol_acronym": null, "protocol_name": "Text/Graphics Protocol", "layer": "application", "rfc_count": 1, "rfc_numbers": [553]}
+{"protocol_acronym": null, "protocol_name": "Time Capability in NETCONF", "layer": "application", "rfc_count": 1, "rfc_numbers": [7758]}
+{"protocol_acronym": null, "protocol_name": "Time Server Protocol", "layer": "application", "rfc_count": 1, "rfc_numbers": [738]}
+{"protocol_acronym": null, "protocol_name": "Time Zone Data Distribution Service", "layer": "application", "rfc_count": 1, "rfc_numbers": [7808]}
+{"protocol_acronym": null, "protocol_name": "Timed Presence Extensions to the Presence Information Data Format", "layer": "application", "rfc_count": 1, "rfc_numbers": [4481]}
+{"protocol_acronym": null, "protocol_name": "TLS 1.3 Authentication and Integrity-Only Cipher Suites", "layer": "session", "rfc_count": 1, "rfc_numbers": [9150]}
+{"protocol_acronym": null, "protocol_name": "TLS Certificate Compression", "layer": "session", "rfc_count": 1, "rfc_numbers": [8879]}
+{"protocol_acronym": null, "protocol_name": "TLS Certificate Status Version 2 Extension", "layer": "session", "rfc_count": 1, "rfc_numbers": [6961]}
+{"protocol_acronym": null, "protocol_name": "TLS ClientHello Padding Extension", "layer": "presentation", "rfc_count": 1, "rfc_numbers": [7685]}
+{"protocol_acronym": null, "protocol_name": "TLS DNSSEC Chain Extension", "layer": "session", "rfc_count": 1, "rfc_numbers": [9102]}
+{"protocol_acronym": null, "protocol_name": "TLS Keying Material Exporters", "layer": "session", "rfc_count": 1, "rfc_numbers": [5705]}
+{"protocol_acronym": null, "protocol_name": "TLS Raw Public Key Extension", "layer": "transport", "rfc_count": 1, "rfc_numbers": [7250]}
+{"protocol_acronym": null, "protocol_name": "TLS Ticket Requests", "layer": "session", "rfc_count": 1, "rfc_numbers": [9149]}
+{"protocol_acronym": null, "protocol_name": "TLS-Based EAP Types for TLS 1.3", "layer": "session", "rfc_count": 1, "rfc_numbers": [9427]}
+{"protocol_acronym": null, "protocol_name": "TN3270 Enhancements", "layer": "application", "rfc_count": 1, "rfc_numbers": [1647]}
+{"protocol_acronym": null, "protocol_name": "TN3270 Extensions for LUname and Printer Selection", "layer": "application", "rfc_count": 1, "rfc_numbers": [1646]}
+{"protocol_acronym": null, "protocol_name": "Traceroute Using an IP Option", "layer": "network", "rfc_count": 1, "rfc_numbers": [1393]}
+{"protocol_acronym": null, "protocol_name": "Traffic Selectors for Flow Bindings", "layer": "network", "rfc_count": 1, "rfc_numbers": [6088]}
+{"protocol_acronym": null, "protocol_name": "Transition Mechanisms for IPv6 Hosts and Routers", "layer": "network", "rfc_count": 2, "rfc_numbers": [1933, 2893]}
+{"protocol_acronym": null, "protocol_name": "Transmission of 802.2 packets over IPX networks", "layer": "link", "rfc_count": 1, "rfc_numbers": [1132]}
+{"protocol_acronym": null, "protocol_name": "Transmission of Flow Labelled IPv4 on ATM Data Links", "layer": "link", "rfc_count": 1, "rfc_numbers": [1954]}
+{"protocol_acronym": null, "protocol_name": "Transmission of IP Datagrams over FDDI Networks", "layer": "link", "rfc_count": 1, "rfc_numbers": [1103]}
+{"protocol_acronym": null, "protocol_name": "Transmission of IP Datagrams over IEEE 802 Networks", "layer": "link", "rfc_count": 1, "rfc_numbers": [1042]}
+{"protocol_acronym": null, "protocol_name": "Transmission of IP Datagrams over Public Data Networks", "layer": "network", "rfc_count": 1, "rfc_numbers": [877]}
+{"protocol_acronym": null, "protocol_name": "Transmission of IP Datagrams over SMDS", "layer": "network", "rfc_count": 1, "rfc_numbers": [1209]}
+{"protocol_acronym": null, "protocol_name": "Transmission of IP Datagrams over the Semaphore Flag Signaling System", "layer": "link", "rfc_count": 1, "rfc_numbers": [4824]}
+{"protocol_acronym": null, "protocol_name": "Transmission of IP Over the Vertical Blanking Interval of a Television Signal", "layer": "link", "rfc_count": 1, "rfc_numbers": [2728]}
+{"protocol_acronym": null, "protocol_name": "Transmission of IPv4 Packets over the IP Convergence Sublayer of IEEE 802.16", "layer": "link", "rfc_count": 1, "rfc_numbers": [5948]}
+{"protocol_acronym": null, "protocol_name": "Transmission of IPv6 over ARCnet", "layer": "network", "rfc_count": 1, "rfc_numbers": [2497]}
+{"protocol_acronym": null, "protocol_name": "Transmission of IPv6 over IEEE 1394", "layer": "link", "rfc_count": 1, "rfc_numbers": [3146]}
+{"protocol_acronym": null, "protocol_name": "Transmission of IPv6 over IPv4 Domains without Explicit Tunnels", "layer": "network", "rfc_count": 1, "rfc_numbers": [2529]}
+{"protocol_acronym": null, "protocol_name": "Transmission of IPv6 Packets over Ethernet", "layer": "link", "rfc_count": 1, "rfc_numbers": [2464]}
+{"protocol_acronym": null, "protocol_name": "Transmission of IPv6 Packets Over FDDI", "layer": "link", "rfc_count": 2, "rfc_numbers": [2019, 2467]}
+{"protocol_acronym": null, "protocol_name": "Transmission of IPv6 Packets over IEEE 802.15.4 Networks", "layer": "link", "rfc_count": 1, "rfc_numbers": [4944]}
+{"protocol_acronym": null, "protocol_name": "Transmission of IPv6 Packets over Token Ring", "layer": "link", "rfc_count": 1, "rfc_numbers": [2470]}
+{"protocol_acronym": null, "protocol_name": "Transmission of IPv6, IPv4, and ARP over Fibre Channel", "layer": "link", "rfc_count": 1, "rfc_numbers": [4338]}
+{"protocol_acronym": null, "protocol_name": "Transmitting IP traffic over ARCNET networks", "layer": "link", "rfc_count": 1, "rfc_numbers": [1201]}
+{"protocol_acronym": null, "protocol_name": "Transport Adapter Layer Interface", "layer": "session", "rfc_count": 1, "rfc_numbers": [3094]}
+{"protocol_acronym": null, "protocol_name": "Transport of Ethernet Frames over L2TPv3", "layer": "link", "rfc_count": 1, "rfc_numbers": [4719]}
+{"protocol_acronym": null, "protocol_name": "Transport of Layer 2 Frames Over MPLS", "layer": "network", "rfc_count": 1, "rfc_numbers": [4906]}
+{"protocol_acronym": null, "protocol_name": "Transporting S/MIME Objects in X.400", "layer": "application", "rfc_count": 1, "rfc_numbers": [3855]}
+{"protocol_acronym": null, "protocol_name": "Trunk Group Representation in tel/sip URIs", "layer": "application", "rfc_count": 1, "rfc_numbers": [4904]}
+{"protocol_acronym": null, "protocol_name": "TUNNEL Profile", "layer": "application", "rfc_count": 1, "rfc_numbers": [3620]}
+{"protocol_acronym": null, "protocol_name": "Tunneling IPX traffic through IP networks", "layer": "network", "rfc_count": 1, "rfc_numbers": [1234]}
+{"protocol_acronym": null, "protocol_name": "Tunneling of SMTP Message Transfer Priorities", "layer": "application", "rfc_count": 1, "rfc_numbers": [6758]}
+{"protocol_acronym": null, "protocol_name": "TURN Resolution Mechanism", "layer": "application", "rfc_count": 1, "rfc_numbers": [5928]}
+{"protocol_acronym": null, "protocol_name": "TURN Server Auto Discovery", "layer": "application", "rfc_count": 1, "rfc_numbers": [8155]}
+{"protocol_acronym": null, "protocol_name": "UCSB Online Graphics", "layer": "application", "rfc_count": 1, "rfc_numbers": [398]}
+{"protocol_acronym": null, "protocol_name": "Unencrypted Form of Kerberos 5 KRB-CRED Message", "layer": "application", "rfc_count": 1, "rfc_numbers": [6448]}
+{"protocol_acronym": null, "protocol_name": "Unicast-Based Rapid Acquisition of Multicast RTP Sessions", "layer": "application", "rfc_count": 1, "rfc_numbers": [6285]}
+{"protocol_acronym": null, "protocol_name": "Unicast-Prefix-Based IPv4 Multicast Addresses", "layer": "network", "rfc_count": 1, "rfc_numbers": [6034]}
+{"protocol_acronym": null, "protocol_name": "Unicast-Prefix-based IPv6 Multicast Addresses", "layer": "network", "rfc_count": 1, "rfc_numbers": [3306]}
+{"protocol_acronym": null, "protocol_name": "Unicode with MIME", "layer": "application", "rfc_count": 1, "rfc_numbers": [1641]}
+{"protocol_acronym": null, "protocol_name": "Unified IPv4-in-IPv6 Softwire CPE: A DHCPv6-Based Prioritization Mechanism", "layer": "network", "rfc_count": 1, "rfc_numbers": [8026]}
+{"protocol_acronym": null, "protocol_name": "Unified Layer 2 Abstractions for Layer 3-Driven Fast Handover", "layer": "other", "rfc_count": 1, "rfc_numbers": [5184]}
+{"protocol_acronym": null, "protocol_name": "Uniform Format for IPv6 Extension Headers", "layer": "network", "rfc_count": 1, "rfc_numbers": [6564]}
+{"protocol_acronym": "", "protocol_name": "Uninterruptible Power Supply (UPS) Management Protocol", "layer": "application", "rfc_count": 1, "rfc_numbers": [9271]}
+{"protocol_acronym": null, "protocol_name": "Unsigned X.509 Certificates", "layer": "application", "rfc_count": 1, "rfc_numbers": [9925]}
+{"protocol_acronym": null, "protocol_name": "Update Notifications for Proxy Mobile IPv6", "layer": "network", "rfc_count": 1, "rfc_numbers": [7077]}
+{"protocol_acronym": null, "protocol_name": "Updated Specification of the IPv4 ID Field", "layer": "network", "rfc_count": 1, "rfc_numbers": [6864]}
+{"protocol_acronym": null, "protocol_name": "URI Fragment Identifiers for text/csv", "layer": "application", "rfc_count": 1, "rfc_numbers": [7111]}
+{"protocol_acronym": null, "protocol_name": "URI Resolution Services", "layer": "application", "rfc_count": 1, "rfc_numbers": [2483]}
+{"protocol_acronym": null, "protocol_name": "URI Template", "layer": "application", "rfc_count": 1, "rfc_numbers": [6570]}
+{"protocol_acronym": null, "protocol_name": "URL MIME External-Body Access-Type", "layer": "application", "rfc_count": 1, "rfc_numbers": [2017]}
+{"protocol_acronym": null, "protocol_name": "Use of AES in CMS", "layer": "presentation", "rfc_count": 1, "rfc_numbers": [3565]}
+{"protocol_acronym": null, "protocol_name": "Use of Internet-IP addresses in ISO CLNP", "layer": "network", "rfc_count": 1, "rfc_numbers": [986]}
+{"protocol_acronym": null, "protocol_name": "Use of X.500 Directory for X.400/RFC822 Address Mapping", "layer": "application", "rfc_count": 1, "rfc_numbers": [1838]}
+{"protocol_acronym": null, "protocol_name": "USENET message format", "layer": "application", "rfc_count": 1, "rfc_numbers": [1036]}
+{"protocol_acronym": null, "protocol_name": "USENET message interchange format", "layer": "application", "rfc_count": 1, "rfc_numbers": [850]}
+{"protocol_acronym": null, "protocol_name": "User Agent Profile Data Set for Media Policy", "layer": "application", "rfc_count": 1, "rfc_numbers": [6796]}
+{"protocol_acronym": null, "protocol_name": "User Friendly Naming using OSI Directory", "layer": "application", "rfc_count": 1, "rfc_numbers": [1484]}
+{"protocol_acronym": null, "protocol_name": "User-User Protocol", "layer": "application", "rfc_count": 1, "rfc_numbers": [91]}
+{"protocol_acronym": null, "protocol_name": "Username/Password Authentication for SOCKS V5", "layer": "session", "rfc_count": 1, "rfc_numbers": [1929]}
+{"protocol_acronym": null, "protocol_name": "Using AES Counter Mode With IPsec ESP", "layer": "network", "rfc_count": 1, "rfc_numbers": [3686]}
+{"protocol_acronym": null, "protocol_name": "Using ECC Brainpool Curves for IKEv2", "layer": "application", "rfc_count": 1, "rfc_numbers": [6954]}
+{"protocol_acronym": null, "protocol_name": "Using HMAC-SHA-256, HMAC-SHA-384, and HMAC-SHA-512 with IPsec", "layer": "other", "rfc_count": 1, "rfc_numbers": [4868]}
+{"protocol_acronym": null, "protocol_name": "Using LDAP as a Network Information Service", "layer": "application", "rfc_count": 1, "rfc_numbers": [2307]}
+{"protocol_acronym": null, "protocol_name": "Using OpenPGP Keys for TLS Authentication", "layer": "application", "rfc_count": 1, "rfc_numbers": [6091]}
+{"protocol_acronym": null, "protocol_name": "Using the Domain Name System To Store Arbitrary String Attributes", "layer": "application", "rfc_count": 1, "rfc_numbers": [1464]}
+{"protocol_acronym": null, "protocol_name": "VCID Notification over ATM link for LDP", "layer": "network", "rfc_count": 1, "rfc_numbers": [3038]}
+{"protocol_acronym": null, "protocol_name": "Vendor-Specific Information Suboption for DHCP Relay Agent Option", "layer": "network", "rfc_count": 1, "rfc_numbers": [4243]}
+{"protocol_acronym": null, "protocol_name": "Very Distant Host Specification", "layer": "link", "rfc_count": 1, "rfc_numbers": [591]}
+{"protocol_acronym": null, "protocol_name": "Video-Message Message-Context", "layer": "application", "rfc_count": 1, "rfc_numbers": [3938]}
+{"protocol_acronym": null, "protocol_name": "vnc URI Scheme", "layer": "application", "rfc_count": 1, "rfc_numbers": [7869]}
+{"protocol_acronym": null, "protocol_name": "Voice Profile for Internet Mail - version 2", "layer": "application", "rfc_count": 1, "rfc_numbers": [2421]}
+{"protocol_acronym": null, "protocol_name": "Voucher Artifact for Bootstrapping Protocols", "layer": "application", "rfc_count": 1, "rfc_numbers": [8366]}
+{"protocol_acronym": null, "protocol_name": "Watcher Information Event Template-Package for SIP", "layer": "application", "rfc_count": 1, "rfc_numbers": [3857]}
+{"protocol_acronym": null, "protocol_name": "Web Host Metadata", "layer": "application", "rfc_count": 1, "rfc_numbers": [6415]}
+{"protocol_acronym": null, "protocol_name": "Web Origin Concept", "layer": "application", "rfc_count": 1, "rfc_numbers": [6454]}
+{"protocol_acronym": null, "protocol_name": "WebDAV Current Principal Extension", "layer": "application", "rfc_count": 1, "rfc_numbers": [5397]}
+{"protocol_acronym": null, "protocol_name": "WebDAV Redirect Reference Resources", "layer": "application", "rfc_count": 1, "rfc_numbers": [4437]}
+{"protocol_acronym": null, "protocol_name": "WebRTC Data Channel Establishment Protocol", "layer": "application", "rfc_count": 1, "rfc_numbers": [8832]}
+{"protocol_acronym": null, "protocol_name": "WebRTC Data Channels", "layer": "application", "rfc_count": 1, "rfc_numbers": [8831]}
+{"protocol_acronym": null, "protocol_name": "WebRTC MediaStream Identification in the Session Description Protocol", "layer": "application", "rfc_count": 1, "rfc_numbers": [8830]}
+{"protocol_acronym": null, "protocol_name": "WebSocket over HTTP/2", "layer": "application", "rfc_count": 1, "rfc_numbers": [8441]}
+{"protocol_acronym": null, "protocol_name": "Wildcard Pseudowire Type", "layer": "other", "rfc_count": 1, "rfc_numbers": [4863]}
+{"protocol_acronym": null, "protocol_name": "X.400 1988 to 1984 downgrading", "layer": "application", "rfc_count": 1, "rfc_numbers": [1328]}
+{"protocol_acronym": null, "protocol_name": "X.400 Image Body Parts", "layer": "application", "rfc_count": 1, "rfc_numbers": [2158]}
+{"protocol_acronym": null, "protocol_name": "X.400 Use of Extended Character Sets", "layer": "application", "rfc_count": 1, "rfc_numbers": [1502]}
+{"protocol_acronym": null, "protocol_name": "X.500 Directory Monitoring MIB", "layer": "application", "rfc_count": 1, "rfc_numbers": [1567]}
+{"protocol_acronym": null, "protocol_name": "X.500 Root Naming Context Management", "layer": "application", "rfc_count": 1, "rfc_numbers": [2120]}
+{"protocol_acronym": null, "protocol_name": "X.500 String Representation of Standard Attribute Syntaxes", "layer": "application", "rfc_count": 1, "rfc_numbers": [1488]}
+{"protocol_acronym": null, "protocol_name": "X.509 Certificate Extension for 5G Network Function Types", "layer": "application", "rfc_count": 1, "rfc_numbers": [9310]}
+{"protocol_acronym": null, "protocol_name": "X.509 Extensions for IP Addresses and AS Identifiers", "layer": "other", "rfc_count": 1, "rfc_numbers": [3779]}
+{"protocol_acronym": null, "protocol_name": "X.509 Subject Alternative Name for Expression of Service Name", "layer": "application", "rfc_count": 1, "rfc_numbers": [4985]}
+{"protocol_acronym": null, "protocol_name": "XML Based Format for Watcher Information", "layer": "application", "rfc_count": 1, "rfc_numbers": [3858]}
+{"protocol_acronym": null, "protocol_name": "XML Format Extension for Copy Control Attributes", "layer": "application", "rfc_count": 1, "rfc_numbers": [5364]}
+{"protocol_acronym": null, "protocol_name": "XML Media Types", "layer": "application", "rfc_count": 1, "rfc_numbers": [7303]}
+{"protocol_acronym": null, "protocol_name": "XML Pipelining with Chunks for IRIS", "layer": "application", "rfc_count": 1, "rfc_numbers": [4992]}
+{"protocol_acronym": null, "protocol_name": "XML Schema for Media Control", "layer": "application", "rfc_count": 1, "rfc_numbers": [5168]}
+{"protocol_acronym": null, "protocol_name": "XML Security URIs", "layer": "application", "rfc_count": 1, "rfc_numbers": [4051]}
+{"protocol_acronym": null, "protocol_name": "XML-Based Format for Event Notification Filtering", "layer": "application", "rfc_count": 1, "rfc_numbers": [4661]}
+{"protocol_acronym": null, "protocol_name": "XML-Signature Syntax and Processing", "layer": "application", "rfc_count": 1, "rfc_numbers": [3075]}
+{"protocol_acronym": null, "protocol_name": "YANG Data Model for IGMP/MLD Proxy", "layer": "network", "rfc_count": 1, "rfc_numbers": [9398]}
+{"protocol_acronym": null, "protocol_name": "YANG Data Model for Routing Management", "layer": "other", "rfc_count": 1, "rfc_numbers": [8022]}
+{"protocol_acronym": null, "protocol_name": "YANG Modules for IPv4-in-IPv6 Address plus Port (A+P) Softwires", "layer": "application", "rfc_count": 1, "rfc_numbers": [8676]}
+{"protocol_acronym": null, "protocol_name": "YANG Schema Mount", "layer": "other", "rfc_count": 1, "rfc_numbers": [8528]}
+{"protocol_acronym": null, "protocol_name": "Zero Text Length EOF Message", "layer": "application", "rfc_count": 1, "rfc_numbers": [13]}

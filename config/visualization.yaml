@@ -1,7 +1,10 @@
 # 可视化配置（路径相对于项目根目录）
 
 input:
-  classification_jsonl: "outputs/llm_protocol_classification.jsonl"
+  protocol_clusters_jsonl: "outputs/protocol_clusters.jsonl"
 
 output:
   layer_chart_html: "outputs/layer_protocol_chart.html"
+
+chart:
+  cluster_bar_top_n: 0  # 柱状图展示簇数量；0 表示全部（启用滚动）

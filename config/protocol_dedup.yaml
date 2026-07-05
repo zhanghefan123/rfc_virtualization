@@ -1,0 +1,8 @@
+# 协议去重配置（路径相对于项目根目录）
+
+input:
+  classification_jsonl: "outputs/llm_protocol_classification.jsonl"
+
+output:
+  unique_protocols_jsonl: "outputs/unique_protocols.jsonl"
+  unique_protocols_by_name_jsonl: "outputs/unique_protocols_by_name.jsonl"

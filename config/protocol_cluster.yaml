@@ -1,0 +1,26 @@
+# 协议簇配置（路径相对于项目根目录）
+
+input:
+  unique_protocols_jsonl: "outputs/unique_protocols.jsonl"
+  unique_protocols_by_name_jsonl: "outputs/unique_protocols_by_name.jsonl"
+
+output:
+  protocol_clusters_jsonl: "outputs/protocol_clusters.jsonl"
+
+# 归簇规则（可按需增删）
+rules:
+  # 连字符拆分：仅当前缀长度 >= 此值时才在 '-' 处拆簇（避免 E-AC-3 → E、IS-IS → IS）
+  hyphen_split_min_prefix_len: 3
+
+  # protocol_name 前缀匹配：cluster_id 长度 < 此值时不参与匹配
+  name_match_min_cluster_id_len: 3
+
+  # 以下 acronym 整词作为 cluster_id，不在空格/连字符处拆分
+  keep_intact:
+    - E-AC-3
+
+  # acronym → cluster_id 强制映射（优先级高于前缀规则）
+  force_cluster: {}
+
+  # 禁止用于 protocol_name 前缀匹配的 cluster_id
+  name_match_exclude_cluster_ids: []
