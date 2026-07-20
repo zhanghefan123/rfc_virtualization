@@ -65,6 +65,27 @@ def load_rank_metrics(config: dict) -> list[dict]:
     return measure_all_buckets(graphs_root, meta["buckets"], weighted=weighted)
 
 
+def load_layer_time_series(config: dict) -> list[dict]:
+    graphs_root = PROJECT_ROOT / config["input"]["graphs_directory"]
+    meta_path = graphs_root / "meta.json"
+    if not meta_path.is_file():
+        raise FileNotFoundError(f"缺少 {meta_path}，请先运行 protocol_graph export")
+    meta = json.loads(meta_path.read_text(encoding="utf-8"))
+    rows: list[dict] = []
+    for label in meta["buckets"]:
+        nodes = load_jsonl(graphs_root / label / "nodes.jsonl")
+        cluster_counts = {layer: 0 for layer in LAYER_ORDER}
+        rfc_counts = {layer: 0 for layer in LAYER_ORDER}
+        for node in nodes:
+            layer = normalize_layer(node.get("layer"))
+            cluster_counts[layer] += 1
+            rfc_counts[layer] += int(
+                node.get("rfc_count_in_bucket", len(node.get("rfc_numbers_in_bucket", [])))
+            )
+        rows.append({"bucket": label, "clusters": cluster_counts, "rfcs": rfc_counts})
+    return rows
+
+
 def count_clusters_by_layer(clusters: list[dict]) -> tuple[dict[str, int], int, int]:
     counts = {layer: 0 for layer in LAYER_ORDER}
     all_rfcs: set[int] = set()
@@ -89,6 +110,20 @@ def prepare_cluster_bar(clusters: list[dict], top_n: int = 0) -> list[dict]:
     ]
 
 
+def _layer_series_json(time_series: list[dict], key: str) -> str:
+    return json.dumps(
+        [
+            {
+                "name": LAYER_LABELS[layer],
+                "color": LAYER_COLORS[layer],
+                "data": [row[key][layer] for row in time_series],
+            }
+            for layer in LAYER_ORDER
+        ],
+        ensure_ascii=False,
+    )
+
+
 def render_html(
     *,
     counts: dict[str, int],
@@ -96,6 +131,7 @@ def render_html(
     rfc_total: int,
     cluster_bar: list[dict],
     rank_rows: list[dict],
+    layer_time_series: list[dict],
 ) -> str:
     pie_data = [
         {
@@ -128,6 +164,9 @@ def render_html(
     lap_mu2 = json.dumps([r["laplacian_mu2"] for r in rank_rows])
     vn_entropy = json.dumps([r["laplacian_vn_entropy"] for r in rank_rows])
     vn_entropy_ratio = json.dumps([round(r["laplacian_vn_entropy_ratio"] * 100, 4) for r in rank_rows])
+    time_labels = json.dumps([r["bucket"] for r in layer_time_series], ensure_ascii=False)
+    layer_cluster_series = _layer_series_json(layer_time_series, "clusters")
+    layer_rfc_series = _layer_series_json(layer_time_series, "rfcs")
 
     return f"""<!DOCTYPE html>
 <html lang="zh-CN">
@@ -210,6 +249,18 @@ def render_html(
   <div id="charts-bottom">
     <div class="metrics-row">
       <div class="panel-half">
+        <h2>各层协议簇数量（累积年段）</h2>
+        <p class="panel-desc">按 graphs 年段统计各 OSI 层协议簇数量；与引用图节点一致，为累积口径</p>
+        <div id="chart-layer-clusters" class="chart-metric"></div>
+      </div>
+      <div class="panel-half">
+        <h2>各层 RFC 数量（累积年段）</h2>
+        <p class="panel-desc">各层在该年段内出现的 RFC 篇数（可重复计及跨簇）</p>
+        <div id="chart-layer-rfcs" class="chart-metric"></div>
+      </div>
+    </div>
+    <div class="metrics-row">
+      <div class="panel-half">
         <h2>邻接矩阵秩</h2>
         <p class="panel-desc">秩 ≤ N；rank/N 越高 → 协议引用模式越不可替代</p>
         <div id="chart-rank" class="chart-metric"></div>
@@ -260,6 +311,39 @@ def render_html(
     const lapMu2 = {lap_mu2};
     const vnEntropy = {vn_entropy};
     const vnEntropyRatio = {vn_entropy_ratio};
+    const timeLabels = {time_labels};
+    const layerClusterSeries = {layer_cluster_series};
+    const layerRfcSeries = {layer_rfc_series};
+
+    function stackedAreaOption(seriesList, yName) {{
+      return {{
+        tooltip: {{
+          trigger: 'axis',
+          axisPointer: {{ type: 'cross' }},
+        }},
+        legend: {{ top: 8, type: 'scroll' }},
+        grid: {{ left: 64, right: 24, top: 56, bottom: 56 }},
+        xAxis: {{
+          type: 'category',
+          boundaryGap: false,
+          data: timeLabels,
+          axisLabel: {{ rotate: 20 }},
+        }},
+        yAxis: {{ type: 'value', name: yName, minInterval: 1 }},
+        series: seriesList.map(s => ({{
+          name: s.name,
+          type: 'line',
+          stack: 'total',
+          smooth: true,
+          symbolSize: 6,
+          areaStyle: {{ opacity: 0.45 }},
+          lineStyle: {{ width: 2 }},
+          itemStyle: {{ color: s.color }},
+          emphasis: {{ focus: 'series' }},
+          data: s.data,
+        }})),
+      }};
+    }}
 
     const pieChart = echarts.init(document.getElementById('chart-pie'));
     pieChart.setOption({{
@@ -354,6 +438,12 @@ def render_html(
         }}
       }}]
     }});
+
+    const layerClusterChart = echarts.init(document.getElementById('chart-layer-clusters'));
+    layerClusterChart.setOption(stackedAreaOption(layerClusterSeries, '协议簇数'));
+
+    const layerRfcChart = echarts.init(document.getElementById('chart-layer-rfcs'));
+    layerRfcChart.setOption(stackedAreaOption(layerRfcSeries, 'RFC 篇数'));
 
     const rankChart = echarts.init(document.getElementById('chart-rank'));
     rankChart.setOption({{
@@ -607,6 +697,8 @@ def render_html(
     function resizeCharts() {{
       pieChart.resize();
       barChart.resize();
+      layerClusterChart.resize();
+      layerRfcChart.resize();
       rankChart.resize();
       lapChart.resize();
       specChart.resize();
@@ -630,6 +722,7 @@ def generate_layer_chart(config: dict | None = None) -> Path:
     counts, cluster_total, rfc_total = count_clusters_by_layer(cluster_rows)
     cluster_bar = prepare_cluster_bar(cluster_rows, top_n=top_n)
     rank_rows = load_rank_metrics(config)
+    layer_time_series = load_layer_time_series(config)
 
     out_path.parent.mkdir(parents=True, exist_ok=True)
     out_path.write_text(
@@ -639,6 +732,7 @@ def generate_layer_chart(config: dict | None = None) -> Path:
             rfc_total=rfc_total,
             cluster_bar=cluster_bar,
             rank_rows=rank_rows,
+            layer_time_series=layer_time_series,
         ),
         encoding="utf-8",
     )

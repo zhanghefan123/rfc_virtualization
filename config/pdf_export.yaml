@@ -1,0 +1,14 @@
+# HTML → PDF（路径相对于项目根目录）
+# 依赖：pip install playwright && playwright install chromium
+
+input:
+  html: "outputs/layer_protocol_chart.html"
+
+output:
+  pdf: "outputs/layer_protocol_chart.pdf"
+
+render:
+  viewport_width: 1600
+  wait_ms: 3000
+  print_background: true
+  margin_mm: 10
