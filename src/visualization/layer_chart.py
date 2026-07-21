@@ -65,6 +65,18 @@ def load_rank_metrics(config: dict) -> list[dict]:
     return measure_all_buckets(graphs_root, meta["buckets"], weighted=weighted)
 
 
+def _group_ids_by_layer(ids: list[str], id_to_layer: dict[str, str]) -> list[dict]:
+    """按 OSI 层分组协议缩写，供 tooltip 展示。"""
+    buckets: dict[str, list[str]] = {layer: [] for layer in LAYER_ORDER}
+    for cid in ids:
+        buckets[normalize_layer(id_to_layer.get(cid))].append(cid)
+    return [
+        {"layer": layer, "label": LAYER_LABELS[layer], "ids": buckets[layer]}
+        for layer in LAYER_ORDER
+        if buckets[layer]
+    ]
+
+
 def load_layer_time_series(config: dict) -> list[dict]:
     graphs_root = PROJECT_ROOT / config["input"]["graphs_directory"]
     meta_path = graphs_root / "meta.json"
@@ -72,17 +84,37 @@ def load_layer_time_series(config: dict) -> list[dict]:
         raise FileNotFoundError(f"缺少 {meta_path}，请先运行 protocol_graph export")
     meta = json.loads(meta_path.read_text(encoding="utf-8"))
     rows: list[dict] = []
+    prev_ids: set[str] = set()
+    prev_layers: dict[str, str] = {}
     for label in meta["buckets"]:
         nodes = load_jsonl(graphs_root / label / "nodes.jsonl")
         cluster_counts = {layer: 0 for layer in LAYER_ORDER}
         rfc_counts = {layer: 0 for layer in LAYER_ORDER}
+        ids: set[str] = set()
+        id_to_layer: dict[str, str] = {}
         for node in nodes:
+            cid = node["cluster_id"]
             layer = normalize_layer(node.get("layer"))
+            ids.add(cid)
+            id_to_layer[cid] = layer
             cluster_counts[layer] += 1
             rfc_counts[layer] += int(
                 node.get("rfc_count_in_bucket", len(node.get("rfc_numbers_in_bucket", [])))
             )
-        rows.append({"bucket": label, "clusters": cluster_counts, "rfcs": rfc_counts})
+        # 相对上一时段：新进入图的协议簇 = 出现；离开图的 = 消失（累积模式下通常为空）
+        appeared = sorted(ids - prev_ids, key=str.casefold)
+        disappeared = sorted(prev_ids - ids, key=str.casefold)
+        rows.append(
+            {
+                "bucket": label,
+                "clusters": cluster_counts,
+                "rfcs": rfc_counts,
+                "appeared": _group_ids_by_layer(appeared, id_to_layer),
+                "disappeared": _group_ids_by_layer(disappeared, prev_layers),
+            }
+        )
+        prev_ids = ids
+        prev_layers = id_to_layer
     return rows
 
 
@@ -167,6 +199,12 @@ def render_html(
     time_labels = json.dumps([r["bucket"] for r in layer_time_series], ensure_ascii=False)
     layer_cluster_series = _layer_series_json(layer_time_series, "clusters")
     layer_rfc_series = _layer_series_json(layer_time_series, "rfcs")
+    bucket_appeared = json.dumps(
+        [r.get("appeared", []) for r in layer_time_series], ensure_ascii=False
+    )
+    bucket_disappeared = json.dumps(
+        [r.get("disappeared", []) for r in layer_time_series], ensure_ascii=False
+    )
 
     return f"""<!DOCTYPE html>
 <html lang="zh-CN">
@@ -224,7 +262,7 @@ def render_html(
     }}
     .chart {{ width: 100%; height: 640px; }}
     .chart-metric {{ width: 100%; height: 360px; }}
-    .chart-full {{ width: 100%; height: 420px; }}
+    .chart-full {{ width: 100%; height: 480px; }}
     @media (max-width: 1100px) {{
       #charts-top {{ flex-direction: column; }}
       .metrics-row {{ flex-direction: column; }}
@@ -279,7 +317,7 @@ def render_html(
       </div>
       <div class="panel-half">
         <h2>拉普拉斯矩阵谱间隙</h2>
-        <p class="panel-desc">Δ = μ_{{k+1}} − μ_{{k}}（k 为连通分量数）；μ_{{k}}≈0 时 Δ≈μ_{{k+1}}，仅绘 Δ</p>
+        <p class="panel-desc">Δ = μ_(k+1) − μ_k（k 为连通分量数）；μ_k≈0 时 Δ≈μ_(k+1)，仅绘 Δ</p>
         <div id="chart-laplacian-gap" class="chart-metric"></div>
       </div>
     </div>
@@ -314,12 +352,55 @@ def render_html(
     const timeLabels = {time_labels};
     const layerClusterSeries = {layer_cluster_series};
     const layerRfcSeries = {layer_rfc_series};
+    const bucketAppeared = {bucket_appeared};
+    const bucketDisappeared = {bucket_disappeared};
+
+    const layerColorByLabel = {{
+      '链路层': '#91cc75', '网络层': '#5470c6', '传输层': '#fac858', '会话层': '#ee6666',
+      '表示层': '#73c0de', '应用层': '#fc8452', '其他': '#9a60b4'
+    }};
+
+    function formatLayerGroups(groups) {{
+      if (!groups || !groups.length) return '（无）';
+      const total = groups.reduce((n, g) => n + g.ids.length, 0);
+      const lines = groups.map(g => {{
+        const color = layerColorByLabel[g.label] || '#333';
+        return '<span style="color:' + color + '">●</span> <b>' + g.label + '</b>（'
+          + g.ids.length + '）：' + g.ids.join(', ');
+      }});
+      return '共 ' + total + ' 个<br/>' + lines.join('<br/>');
+    }}
+
+    function protocolChangeHtml(dataIndex) {{
+      const appeared = bucketAppeared[dataIndex] || [];
+      const disappeared = bucketDisappeared[dataIndex] || [];
+      let html = '<br/><b>本时段新出现</b>：' + formatLayerGroups(appeared);
+      if (disappeared.length) {{
+        html += '<br/><b>本时段消失</b>：' + formatLayerGroups(disappeared);
+      }}
+      return html;
+    }}
 
     function stackedAreaOption(seriesList, yName) {{
       return {{
         tooltip: {{
           trigger: 'axis',
           axisPointer: {{ type: 'cross' }},
+          confine: true,
+          extraCssText: 'max-width:560px;max-height:420px;overflow:auto;white-space:normal;',
+          formatter: params => {{
+            const i = params[0].dataIndex;
+            // 各层累计数量：横向排布（自动换行），降低竖向高度
+            const layerCells = params.map(p =>
+              '<span style="display:inline-block;min-width:118px;margin:2px 8px 2px 0;white-space:nowrap;">'
+              + p.marker + p.seriesName + ': ' + p.value + '</span>'
+            ).join('');
+            const layerBlock =
+              '<div style="display:flex;flex-wrap:wrap;align-items:center;margin-top:4px;">'
+              + layerCells + '</div>';
+            // 新增协议列表仍按层纵向排布（protocolChangeHtml）
+            return '<b>' + timeLabels[i] + '</b>' + layerBlock + protocolChangeHtml(i);
+          }},
         }},
         legend: {{ top: 8, type: 'scroll' }},
         grid: {{ left: 64, right: 24, top: 56, bottom: 56 }},
@@ -335,11 +416,12 @@ def render_html(
           type: 'line',
           stack: 'total',
           smooth: true,
-          symbolSize: 6,
+          showSymbol: true,
+          symbolSize: 8,
           areaStyle: {{ opacity: 0.45 }},
           lineStyle: {{ width: 2 }},
           itemStyle: {{ color: s.color }},
-          emphasis: {{ focus: 'series' }},
+          emphasis: {{ focus: 'series', scale: true }},
           data: s.data,
         }})),
       }};
@@ -449,12 +531,15 @@ def render_html(
     rankChart.setOption({{
       tooltip: {{
         trigger: 'axis',
+        confine: true,
+        extraCssText: 'max-width:480px;max-height:360px;overflow:auto;white-space:normal;',
         formatter: params => {{
           const i = params[0].dataIndex;
           return `${{rankLabels[i]}}<br/>`
             + `N（协议簇）: ${{nodeCounts[i]}}<br/>`
             + `秩 rank: ${{rankValues[i]}}<br/>`
-            + `rank/N: ${{rankRatios[i].toFixed(2)}}%`;
+            + `rank/N: ${{rankRatios[i].toFixed(2)}}%`
+            + protocolChangeHtml(i);
         }}
       }},
       legend: {{ data: ['秩 rank', 'rank/N (%)'], top: 8 }},
@@ -495,13 +580,16 @@ def render_html(
     lapChart.setOption({{
       tooltip: {{
         trigger: 'axis',
+        confine: true,
+        extraCssText: 'max-width:480px;max-height:360px;overflow:auto;white-space:normal;',
         formatter: params => {{
           const i = params[0].dataIndex;
           return `${{rankLabels[i]}}<br/>`
             + `N（协议簇）: ${{nodeCounts[i]}}<br/>`
             + `L 秩: ${{lapRankValues[i]}}<br/>`
             + `N−1（全连通）: ${{lapExpected[i]}}<br/>`
-            + `连通分量: ${{lapComponents[i]}}`;
+            + `连通分量: ${{lapComponents[i]}}`
+            + protocolChangeHtml(i);
         }}
       }},
       legend: {{ data: ['L 秩', 'N−1（全连通）', '连通分量'], top: 8 }},
@@ -551,13 +639,16 @@ def render_html(
     specChart.setOption({{
       tooltip: {{
         trigger: 'axis',
+        confine: true,
+        extraCssText: 'max-width:480px;max-height:360px;overflow:auto;white-space:normal;',
         formatter: params => {{
           const i = params[0].dataIndex;
           return `${{rankLabels[i]}}<br/>`
             + `N（协议簇）: ${{nodeCounts[i]}}<br/>`
             + `λ₁: ${{specLambda1[i].toFixed(4)}}<br/>`
             + `λ₂: ${{specLambda2[i].toFixed(4)}}<br/>`
-            + `Δ = λ₁ − λ₂: ${{specGapValues[i].toFixed(4)}}`;
+            + `Δ = λ₁ − λ₂: ${{specGapValues[i].toFixed(4)}}`
+            + protocolChangeHtml(i);
         }}
       }},
       legend: {{ data: ['谱间隙 Δ', 'λ₁', 'λ₂'], top: 8 }},
@@ -603,15 +694,18 @@ def render_html(
     lapSpecChart.setOption({{
       tooltip: {{
         trigger: 'axis',
+        confine: true,
+        extraCssText: 'max-width:480px;max-height:360px;overflow:auto;white-space:normal;',
         formatter: params => {{
           const i = params[0].dataIndex;
           return `${{rankLabels[i]}}<br/>`
             + `N（协议簇）: ${{nodeCounts[i]}}<br/>`
             + `连通分量 k: ${{lapComponents[i]}}<br/>`
             + `μ_k ≈ ${{lapMu1[i].toFixed(4)}}<br/>`
-            + `μ_{{k+1}}: ${{lapMu2[i].toFixed(4)}}<br/>`
-            + `Δ = μ_{{k+1}} − μ_k: ${{lapSpecGap[i].toFixed(4)}}<br/>`
-            + `Δ 越小 → 结构越脆弱`;
+            + `μ_(k+1): ${{lapMu2[i].toFixed(4)}}<br/>`
+            + `Δ = μ_(k+1) − μ_k: ${{lapSpecGap[i].toFixed(4)}}<br/>`
+            + `Δ 越小 → 结构越脆弱`
+            + protocolChangeHtml(i);
         }}
       }},
       legend: {{ data: ['谱间隙 Δ', '连通分量 k'], top: 8 }},
@@ -652,24 +746,27 @@ def render_html(
     vnChart.setOption({{
       tooltip: {{
         trigger: 'axis',
+        confine: true,
+        extraCssText: 'max-width:520px;max-height:400px;overflow:auto;white-space:normal;',
         formatter: params => {{
           const i = params[0].dataIndex;
-          return `${{rankLabels[i]}}<br/>`
+          return `<b>${{rankLabels[i]}}</b><br/>`
             + `N（协议簇）: ${{nodeCounts[i]}}<br/>`
             + `S: ${{vnEntropy[i].toFixed(4)}}<br/>`
-            + `S/N: ${{(vnEntropyRatio[i]).toFixed(4)}}%`;
+            + `S/N: ${{(vnEntropyRatio[i]).toFixed(4)}}%`
+            + protocolChangeHtml(i);
         }}
       }},
       legend: {{ data: ['von Neumann 熵 S', 'S/N (%)'], top: 8 }},
-      grid: {{ left: 64, right: 64, top: 48, bottom: 56 }},
+      grid: {{ left: 64, right: 72, top: 48, bottom: 72 }},
       xAxis: {{
         type: 'category',
         data: rankLabels,
-        axisLabel: {{ rotate: 20 }}
+        axisLabel: {{ rotate: 30, interval: 0, fontSize: 10 }}
       }},
       yAxis: [
-        {{ type: 'value', name: '熵 S', min: 0 }},
-        {{ type: 'value', name: 'S/N (%)', min: 0, splitLine: {{ show: false }} }}
+        {{ type: 'value', name: '熵 S', min: 0, scale: true }},
+        {{ type: 'value', name: 'S/N (%)', min: 0, scale: true, splitLine: {{ show: false }} }}
       ],
       series: [
         {{
@@ -677,6 +774,7 @@ def render_html(
           type: 'line',
           data: vnEntropy,
           smooth: true,
+          showSymbol: true,
           symbolSize: 8,
           lineStyle: {{ width: 3 }},
           itemStyle: {{ color: '#5470c6' }}
@@ -687,6 +785,7 @@ def render_html(
           yAxisIndex: 1,
           data: vnEntropyRatio,
           smooth: true,
+          showSymbol: true,
           symbolSize: 8,
           lineStyle: {{ width: 3 }},
           itemStyle: {{ color: '#91cc75' }}
@@ -706,6 +805,11 @@ def render_html(
       vnChart.resize();
     }}
     window.addEventListener('resize', resizeCharts);
+    // 底部长页图表偶发初始高度为 0，布局完成后再 resize
+    requestAnimationFrame(() => {{
+      resizeCharts();
+      setTimeout(resizeCharts, 200);
+    }});
   </script>
 </body>
 </html>

@@ -9,7 +9,7 @@ output:
   directory: "outputs/graphs"
 
 graph:
-  year_span: 10
+  year_span: 1
   year_start: 1969
   year_end: 2026
   reference_types:
